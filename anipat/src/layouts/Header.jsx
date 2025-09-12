@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
     return (
@@ -41,7 +42,7 @@ export default function Header() {
                                 <div className="col-xl-3 col-lg-3">
                                     <div className="logo">
                                         <a href="index.html">
-                                            <img src="img/logo.png" alt=""/>
+                                            <img src="img/logo.png" alt="" />
                                         </a>
                                     </div>
                                 </div>
@@ -50,7 +51,11 @@ export default function Header() {
                                         <nav>
                                             <ul id="navigation">
                                                 <li><a href="index.html">home</a></li>
-                                                <li><a href="about.html">about</a></li>
+                                                <li>
+                                                    <Link to={'/emergency'}>
+                                                    Emergency & Vet Help
+                                                    </Link>
+                                                </li>
                                                 <li><a href="#">blog <i className="ti-angle-down"></i></a>
                                                     <ul className="submenu">
                                                         <li><a href="blog.html">blog</a></li>

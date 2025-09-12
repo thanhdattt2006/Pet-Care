@@ -1,0 +1,62 @@
+{
+    "hotlines": [
+        {
+            "name": "Hotline Thú Y Toàn Quốc",
+            "phone": "1111 1111"
+        },
+        {
+            "name": "Cấp cứu Thú Y Hà Nội",
+            "phone": "222 2222"
+        },
+        {
+            "name": "Cấp cứu Thú Y TP.HCM",
+            "phone": "222 2222"
+        }
+    ],
+    "vets": [
+        {
+            "id": 1,
+            "name": "Phòng Khám Thú Y PetCare",
+            "address": "12 Nguyễn Trãi, Hà Nội",
+            "phone": "0904 111 222",
+            "status": "Mở cửa 24/7"
+        },
+        {
+            "id": 2,
+            "name": "Trung Tâm Cấp Cứu Thú Y Sài Gòn",
+            "address": "45 Lê Lợi, Quận 1, TP.HCM",
+            "phone": "0912 333 444",
+            "status": "Mở cửa 24/7"
+        },
+        {
+            "id": 3,
+            "name": "Bệnh Viện Thú Y Thăng Long",
+            "address": "88 Trần Phú, Hà Nội",
+            "phone": "0935 555 666",
+            "status": "08:00 - 22:00"
+        }
+    ],
+    "doctors": [
+        {
+            "id": 1,
+            "name": "BS. Nguyễn Văn A",
+            "specialty": "Phẫu thuật thú y",
+            "phone": "0901 111 111",
+            "experience": "10 năm"
+        },
+        {
+            "id": 2,
+            "name": "BS. Trần Thị B",
+            "specialty": "Chẩn đoán hình ảnh",
+            "phone": "0902 222 222",
+            "experience": "7 năm"
+        },
+        {
+            "id": 3,
+            "name": "BS. Lê Văn C",
+            "specialty": "Nội khoa thú y",
+            "phone": "0903 333 333",
+            "experience": "5 năm"
+        }
+    ]
+}
