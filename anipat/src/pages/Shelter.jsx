@@ -23,7 +23,7 @@ const Shelter = () => {
     });
 
     return (
-        <div className="container my-5">
+        <>
             {/* Gallery Thú Cưng Nhận Nuôi */}
             <section id="pet-adoption">
                 <h2 className="text-center mb-4">Adoption Library</h2>
@@ -107,7 +107,7 @@ const Shelter = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </>
     );
 };
 

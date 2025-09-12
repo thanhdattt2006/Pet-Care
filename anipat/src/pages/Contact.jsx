@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="container my-5">
+        <>
             <h2 className="text-center mb-4">Contact Us</h2>
             <div className="row">
                 {/* Static contact information */}
@@ -36,7 +36,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="container my-5">
+        <>
             <h2 className="text-center mb-4">About Us</h2>
             <div className="row">
                 <div className="col-12">
@@ -28,7 +28,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
