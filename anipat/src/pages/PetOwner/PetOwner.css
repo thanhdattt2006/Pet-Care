@@ -1,0 +1,40 @@
+/* Căn giữa text trong phần header */
+.p-datatable .p-datatable-thead > tr > th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+/* Đảm bảo nội dung trong wrapper của header cũng căn giữa */
+.p-datatable .p-datatable-thead > tr > th .p-column-header-content {
+  justify-content: center !important;
+}
+
+/* ✅ Căn giữa chữ Dog Grooming / Cat Grooming */
+/* Reset lại margin & padding mặc định */
+.p-tabview .p-tabview-nav {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 2rem;
+  padding-left: 0 !important;  /* fix lệch phải */
+  margin-left: 0 !important;   /* fix lệch phải */
+}
+
+
+.p-tabview .p-tabview-nav li {
+  flex: 0 0 auto !important; /* ❌ không chiếm hết chiều rộng */
+  display: flex !important;
+  justify-content: center !important;
+  transform: translateX(100px); 
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 0.75rem 1.5rem; /* căn padding gọn hơn */
+}
+
+
+
+
