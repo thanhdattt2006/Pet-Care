@@ -1,0 +1,62 @@
+{
+    "hotlines": [
+        {
+            "name": "National Veterinary Hotline",
+            "phone": "1111 1111"
+        },
+        {
+            "name": "Hanoi Veterinary Emergency",
+            "phone": "222 2222"
+        },
+        {
+            "name": "HCMC Veterinary Emergency",
+            "phone": "222 2222"
+        }
+    ],
+    "vets": [
+        {
+            "id": 1,
+            "name": "PetCare Veterinary Clinic",
+            "address": "12 Nguyen Trai, Hanoi",
+            "phone": "0904 111 222",
+            "status": "Open 24/7"
+        },
+        {
+            "id": 2,
+            "name": "Saigon Veterinary Emergency Center",
+            "address": "45 Le Loi, District 1, HCMC",
+            "phone": "0912 333 444",
+            "status": "Open 24/7"
+        },
+        {
+            "id": 3,
+            "name": "Bình Viện Veterinary Thăng Long",
+            "address": "88 Trần Phú, Hà Nội",
+            "phone": "0935 555 666",
+            "status": "08:00 - 22:00"
+        }
+    ],
+    "doctors": [
+        {
+            "id": 1,
+            "name": "BS. Nguyễn Văn A",
+            "specialty": "Veterinary surgery",
+            "phone": "0901 111 111",
+            "experience": "10 years"
+        },
+        {
+            "id": 2,
+            "name": "BS. Trần Thị B",
+            "specialty": "Diagnosis image",
+            "phone": "0902 222 222",
+            "experience": "7 years"
+        },
+        {
+            "id": 3,
+            "name": "BS. Le Van C",
+            "specialty": "Veterinary Internal Medicine",
+            "phone": "0903 333 333",
+            "experience": "5 years"
+        }
+    ]
+}

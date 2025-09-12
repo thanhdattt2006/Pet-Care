@@ -13,7 +13,7 @@ export default function Newsletter() {
                                     <p>Because we know that even the best technology is only as good as the people behind it. 24/7 tech support.</p>
                                 </div>
                                 <div className="contact_btn d-flex align-items-center justify-content-center">
-                                    <a href="contact.html" className="boxed-btn4">Contact Us</a>
+                                    <a href="contact" className="boxed-btn4">Contact Us</a>
                                     <p>Or  <a href="#"> +880 4664 216</a></p>
                                 </div>
                             </div>

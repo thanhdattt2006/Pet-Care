@@ -35,7 +35,7 @@ export default function Shop() {
 
     // fetch product.json
     useEffect(() => {
-        fetch("/product.json")
+        fetch("data/product.json")
             .then((res) => res.json())
             .then((data) => {
 
