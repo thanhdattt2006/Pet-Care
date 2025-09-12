@@ -1,0 +1,34 @@
+.p-breadcrumb {
+  font-size: 19px;
+  color: #191D34;
+  
+}
+
+.p-breadcrumb .p-menuitem-text,
+.p-breadcrumb .p-menuitem-icon {
+  color: #191D34 !important;
+  font-weight: 400;
+  text-align: center;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+.search-container {
+    max-width: 66%;
+    margin: 0 auto;
+    margin-top: -6rem;
+    margin-bottom: 2rem; /* khoảng cách với phần dưới */
+}
+
+.search-container .p-inputtext {
+    width: 100%;         /* full width trong khung */
+    font-size: 16px;     /* chỉnh size text */
+    padding: 0.75rem 2.2rem;
+    border-radius: 8px;  /* bo góc */
+}

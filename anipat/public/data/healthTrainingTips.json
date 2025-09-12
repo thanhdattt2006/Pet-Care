@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "category": "Health",
+    "tip": "Brush your pet’s teeth 2-3 times per week."
+  },
+  { "id": 2, "category": "Health", "tip": "Provide fresh water at all times." },
+  {
+    "id": 3,
+    "category": "Training",
+    "tip": "Daily walks improve both physical and mental health."
+  },
+  {
+    "id": 4,
+    "category": "Training",
+    "tip": "Reward-based training works best for both dogs and cats."
+  },
+  {
+    "id": 5,
+    "category": "Health",
+    "tip": "Schedule annual vet check-ups to keep vaccinations updated."
+  },
+  {
+    "id": 6,
+    "category": "Training",
+    "tip": "Keep training sessions short (5–10 minutes) but consistent."
+  },
+  {
+    "id": 7,
+    "category": "Health",
+    "tip": "Maintain a balanced diet suited for your pet’s age and breed."
+  },
+  {
+    "id": 8,
+    "category": "Training",
+    "tip": "Use positive reinforcement instead of punishment."
+  },
+  {
+    "id": 9,
+    "category": "Health",
+    "tip": "Keep your pet’s living area clean to prevent infections."
+  },
+  {
+    "id": 10,
+    "category": "Training",
+    "tip": "Socialize your pet with other animals from an early age."
+  },
+  {
+    "id": 11,
+    "category": "Health",
+    "tip": "Groom regularly to maintain healthy skin and coat."
+  },
+  {
+    "id": 12,
+    "category": "Training",
+    "tip": "Train basic commands like sit, stay, and come."
+  },
+  {
+    "id": 13,
+    "category": "Health",
+    "tip": "Monitor your pet’s weight to avoid obesity."
+  },
+  {
+    "id": 14,
+    "category": "Training",
+    "tip": "Always be patient and consistent during training."
+  },
+  {
+    "id": 15,
+    "category": "Health",
+    "tip": "Protect your pet from extreme heat or cold."
+  },
+
+  {
+    "id": 16,
+    "category": "Health",
+    "tip": "Check your pet’s ears weekly for dirt or infection."
+  },
+  {
+    "id": 17,
+    "category": "Training",
+    "tip": "Teach your pet to walk calmly on a leash."
+  },
+  {
+    "id": 18,
+    "category": "Health",
+    "tip": "Clip your pet’s nails regularly to avoid overgrowth."
+  },
+  {
+    "id": 19,
+    "category": "Training",
+    "tip": "Practice recall training in a safe environment."
+  },
+  {
+    "id": 20,
+    "category": "Health",
+    "tip": "Provide mental stimulation with puzzle toys."
+  },
+  {
+    "id": 21,
+    "category": "Training",
+    "tip": "Train your pet to wait before eating."
+  },
+  {
+    "id": 22,
+    "category": "Health",
+    "tip": "Ensure your pet gets regular exercise to stay fit."
+  },
+  { "id": 23, "category": "Training", "tip": "Reward calm behavior indoors." },
+  {
+    "id": 24,
+    "category": "Health",
+    "tip": "Check your pet’s teeth for tartar buildup monthly."
+  },
+  {
+    "id": 25,
+    "category": "Training",
+    "tip": "Introduce crate training gradually."
+  },
+  {
+    "id": 26,
+    "category": "Health",
+    "tip": "Keep your pet’s vaccinations up to date."
+  },
+  {
+    "id": 27,
+    "category": "Training",
+    "tip": "Use short, clear commands for better learning."
+  },
+  {
+    "id": 28,
+    "category": "Health",
+    "tip": "Offer safe chew toys to support dental health."
+  },
+  {
+    "id": 29,
+    "category": "Training",
+    "tip": "Train your pet to be comfortable with handling."
+  },
+  {
+    "id": 30,
+    "category": "Health",
+    "tip": "Watch for signs of allergies such as itching or redness."
+  },
+
+  {
+    "id": 31,
+    "category": "Training",
+    "tip": "Practice obedience training daily."
+  },
+  {
+    "id": 32,
+    "category": "Health",
+    "tip": "Provide shaded areas for pets outdoors."
+  },
+  {
+    "id": 33,
+    "category": "Training",
+    "tip": "Gradually expose pets to new environments."
+  },
+  {
+    "id": 34,
+    "category": "Health",
+    "tip": "Regularly wash your pet’s bedding."
+  },
+  {
+    "id": 35,
+    "category": "Training",
+    "tip": "Teach your pet not to jump on guests."
+  },
+  {
+    "id": 36,
+    "category": "Health",
+    "tip": "Provide omega-3 supplements for coat health if needed."
+  },
+  {
+    "id": 37,
+    "category": "Training",
+    "tip": "Set a consistent routine for training sessions."
+  },
+  {
+    "id": 38,
+    "category": "Health",
+    "tip": "Check paws for cuts or debris after walks."
+  },
+  {
+    "id": 39,
+    "category": "Training",
+    "tip": "Encourage calm crate time with toys."
+  },
+  {
+    "id": 40,
+    "category": "Health",
+    "tip": "Ensure proper flea and tick prevention."
+  },
+  {
+    "id": 41,
+    "category": "Training",
+    "tip": "Use treats sparingly to prevent overfeeding."
+  },
+  {
+    "id": 42,
+    "category": "Health",
+    "tip": "Provide enough lighting for reptiles or fish tanks."
+  },
+  {
+    "id": 43,
+    "category": "Training",
+    "tip": "Train your pet to be comfortable with grooming."
+  },
+  {
+    "id": 44,
+    "category": "Health",
+    "tip": "Observe changes in appetite or behavior as warning signs."
+  },
+  {
+    "id": 45,
+    "category": "Training",
+    "tip": "Keep training fun with games and rewards."
+  }
+]
