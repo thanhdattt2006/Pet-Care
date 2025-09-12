@@ -11,7 +11,7 @@ export default function Slider() {
                         <div className="slider_text">
                             <h3>We Care <br/> <span>Your Pets</span></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit, sed do eiusmod.</p>
-                            <a href="contact.html" className="boxed-btn4">Contact Us</a>
+                            <a href="contact" className="boxed-btn4">Contact Us</a>
                         </div>
                     </div>
                 </div>
