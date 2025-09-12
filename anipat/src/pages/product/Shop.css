@@ -42,3 +42,49 @@ h4:hover {
     border-radius: 8px;  /* bo góc */
 }
 
+/* Layout cho desktop */
+.area {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Responsive cho tablet và mobile */
+@media (max-width: 992px) {
+  .area {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .product {
+    width: 100%;
+  }
+
+  .search-container {
+    max-width: 100%;
+    margin-top: 1rem; /* bớt âm margin */
+    padding: 0 1rem;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .product-item {
+    flex-direction: column; /* card xếp dọc */
+    text-align: center;
+  }
+
+  .product-item img {
+    margin: 0 auto 1rem auto;
+  }
+
+  .product-item div {
+    flex: unset;
+  }
+}

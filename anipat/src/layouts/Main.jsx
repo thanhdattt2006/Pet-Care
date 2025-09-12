@@ -1,14 +1,11 @@
+// Main.jsx
 import React from 'react'
-import createBrowser from '../routes/Routes'
-import { Routes } from 'react-router-dom';
+import AppRoutes from '../routes/Routes'   // ✅ import đúng component
 
 export default function Main() {
-  let routes = createBrowser();
   return (
-    <>
-        <Routes>
-          {routes}
-        </Routes>
-    </>
+    <div>
+      <AppRoutes />   {/* ✅ render trực tiếp */}
+    </div>
   )
 }

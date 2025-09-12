@@ -1,0 +1,409 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "type": "Dog",
+    "breed": "Golden Retriever",
+    "age": 3,
+    "weight": "25kg",
+    "vaccinated": true
+  },
+  {
+    "id": 2,
+    "name": "Milo",
+    "type": "Cat",
+    "breed": "British Shorthair",
+    "age": 2,
+    "weight": "6kg",
+    "vaccinated": false
+  },
+  {
+    "id": 3,
+    "name": "Chirpy",
+    "type": "Bird",
+    "breed": "Cockatiel",
+    "age": 1,
+    "weight": "0.1kg",
+    "vaccinated": true
+  },
+  {
+    "id": 4,
+    "name": "Rocky",
+    "type": "Dog",
+    "breed": "Bulldog",
+    "age": 5,
+    "weight": "20kg",
+    "vaccinated": true
+  },
+  {
+    "id": 5,
+    "name": "Luna",
+    "type": "Cat",
+    "breed": "Persian",
+    "age": 4,
+    "weight": "5.5kg",
+    "vaccinated": false
+  },
+  {
+    "id": 6,
+    "name": "Max",
+    "type": "Dog",
+    "breed": "German Shepherd",
+    "age": 7,
+    "weight": "30kg",
+    "vaccinated": true
+  },
+  {
+    "id": 7,
+    "name": "Coco",
+    "type": "Bird",
+    "breed": "Parrot",
+    "age": 2,
+    "weight": "0.9kg",
+    "vaccinated": true
+  },
+  {
+    "id": 8,
+    "name": "Snowball",
+    "type": "Rabbit",
+    "breed": "Holland Lop",
+    "age": 1,
+    "weight": "2kg",
+    "vaccinated": false
+  },
+  {
+    "id": 9,
+    "name": "Shadow",
+    "type": "Cat",
+    "breed": "Maine Coon",
+    "age": 6,
+    "weight": "8kg",
+    "vaccinated": true
+  },
+  {
+    "id": 10,
+    "name": "Daisy",
+    "type": "Dog",
+    "breed": "Beagle",
+    "age": 4,
+    "weight": "10kg",
+    "vaccinated": true
+  },
+  {
+    "id": 11,
+    "name": "Oliver",
+    "type": "Cat",
+    "breed": "Siamese",
+    "age": 3,
+    "weight": "5kg",
+    "vaccinated": false
+  },
+  {
+    "id": 12,
+    "name": "Speedy",
+    "type": "Turtle",
+    "breed": "Red-Eared Slider",
+    "age": 12,
+    "weight": "1.2kg",
+    "vaccinated": false
+  },
+  {
+    "id": 13,
+    "name": "Bella",
+    "type": "Dog",
+    "breed": "Poodle",
+    "age": 9,
+    "weight": "12kg",
+    "vaccinated": true
+  },
+  {
+    "id": 14,
+    "name": "Nibbles",
+    "type": "Rabbit",
+    "breed": "Mini Rex",
+    "age": 2,
+    "weight": "1.8kg",
+    "vaccinated": true
+  },
+  {
+    "id": 15,
+    "name": "Kiwi",
+    "type": "Bird",
+    "breed": "Lovebird",
+    "age": 1,
+    "weight": "0.05kg",
+    "vaccinated": false
+  },
+
+  {
+    "id": 16,
+    "name": "Charlie",
+    "type": "Dog",
+    "breed": "Labrador Retriever",
+    "age": 2,
+    "weight": "28kg",
+    "vaccinated": true
+  },
+  {
+    "id": 17,
+    "name": "Simba",
+    "type": "Cat",
+    "breed": "Ragdoll",
+    "age": 5,
+    "weight": "6.5kg",
+    "vaccinated": true
+  },
+  {
+    "id": 18,
+    "name": "Peach",
+    "type": "Hamster",
+    "breed": "Syrian Hamster",
+    "age": 1,
+    "weight": "0.15kg",
+    "vaccinated": false
+  },
+  {
+    "id": 19,
+    "name": "Blue",
+    "type": "Fish",
+    "breed": "Betta",
+    "age": 1,
+    "weight": "0.02kg",
+    "vaccinated": false
+  },
+  {
+    "id": 20,
+    "name": "Rex",
+    "type": "Dog",
+    "breed": "Doberman",
+    "age": 6,
+    "weight": "32kg",
+    "vaccinated": true
+  },
+  {
+    "id": 21,
+    "name": "Misty",
+    "type": "Cat",
+    "breed": "Russian Blue",
+    "age": 4,
+    "weight": "5.2kg",
+    "vaccinated": true
+  },
+  {
+    "id": 22,
+    "name": "Sunny",
+    "type": "Bird",
+    "breed": "Canary",
+    "age": 2,
+    "weight": "0.08kg",
+    "vaccinated": false
+  },
+  {
+    "id": 23,
+    "name": "Thumper",
+    "type": "Rabbit",
+    "breed": "English Angora",
+    "age": 3,
+    "weight": "2.3kg",
+    "vaccinated": true
+  },
+  {
+    "id": 24,
+    "name": "Spike",
+    "type": "Turtle",
+    "breed": "Box Turtle",
+    "age": 8,
+    "weight": "1kg",
+    "vaccinated": false
+  },
+  {
+    "id": 25,
+    "name": "Ruby",
+    "type": "Dog",
+    "breed": "Cocker Spaniel",
+    "age": 5,
+    "weight": "11kg",
+    "vaccinated": true
+  },
+  {
+    "id": 26,
+    "name": "Zoe",
+    "type": "Cat",
+    "breed": "Bengal",
+    "age": 2,
+    "weight": "4.5kg",
+    "vaccinated": true
+  },
+  {
+    "id": 27,
+    "name": "Pico",
+    "type": "Bird",
+    "breed": "Budgerigar",
+    "age": 3,
+    "weight": "0.03kg",
+    "vaccinated": false
+  },
+  {
+    "id": 28,
+    "name": "Pumpkin",
+    "type": "Hamster",
+    "breed": "Dwarf Hamster",
+    "age": 1,
+    "weight": "0.1kg",
+    "vaccinated": false
+  },
+  {
+    "id": 29,
+    "name": "Finn",
+    "type": "Fish",
+    "breed": "Goldfish",
+    "age": 2,
+    "weight": "0.1kg",
+    "vaccinated": false
+  },
+  {
+    "id": 30,
+    "name": "Zeus",
+    "type": "Dog",
+    "breed": "Rottweiler",
+    "age": 7,
+    "weight": "40kg",
+    "vaccinated": true
+  },
+
+  {
+    "id": 31,
+    "name": "Chloe",
+    "type": "Cat",
+    "breed": "Sphynx",
+    "age": 3,
+    "weight": "4kg",
+    "vaccinated": true
+  },
+  {
+    "id": 32,
+    "name": "Sky",
+    "type": "Bird",
+    "breed": "Macaw",
+    "age": 4,
+    "weight": "1kg",
+    "vaccinated": true
+  },
+  {
+    "id": 33,
+    "name": "Fluffy",
+    "type": "Rabbit",
+    "breed": "Lionhead",
+    "age": 2,
+    "weight": "2.1kg",
+    "vaccinated": false
+  },
+  {
+    "id": 34,
+    "name": "Tank",
+    "type": "Turtle",
+    "breed": "Snapping Turtle",
+    "age": 15,
+    "weight": "4kg",
+    "vaccinated": false
+  },
+  {
+    "id": 35,
+    "name": "Oscar",
+    "type": "Dog",
+    "breed": "Shih Tzu",
+    "age": 6,
+    "weight": "6kg",
+    "vaccinated": true
+  },
+  {
+    "id": 36,
+    "name": "Lily",
+    "type": "Cat",
+    "breed": "Abyssinian",
+    "age": 5,
+    "weight": "5.1kg",
+    "vaccinated": true
+  },
+  {
+    "id": 37,
+    "name": "Tweety",
+    "type": "Bird",
+    "breed": "Finch",
+    "age": 1,
+    "weight": "0.02kg",
+    "vaccinated": false
+  },
+  {
+    "id": 38,
+    "name": "Hazel",
+    "type": "Hamster",
+    "breed": "Chinese Hamster",
+    "age": 1,
+    "weight": "0.12kg",
+    "vaccinated": false
+  },
+  {
+    "id": 39,
+    "name": "Bubbles",
+    "type": "Fish",
+    "breed": "Molly",
+    "age": 1,
+    "weight": "0.03kg",
+    "vaccinated": false
+  },
+  {
+    "id": 40,
+    "name": "Ace",
+    "type": "Dog",
+    "breed": "Border Collie",
+    "age": 3,
+    "weight": "18kg",
+    "vaccinated": true
+  },
+  {
+    "id": 41,
+    "name": "Jasper",
+    "type": "Cat",
+    "breed": "Norwegian Forest",
+    "age": 6,
+    "weight": "7kg",
+    "vaccinated": true
+  },
+  {
+    "id": 42,
+    "name": "Rio",
+    "type": "Bird",
+    "breed": "Amazon Parrot",
+    "age": 5,
+    "weight": "0.7kg",
+    "vaccinated": true
+  },
+  {
+    "id": 43,
+    "name": "Cinnamon",
+    "type": "Rabbit",
+    "breed": "Dutch",
+    "age": 3,
+    "weight": "2.5kg",
+    "vaccinated": false
+  },
+  {
+    "id": 44,
+    "name": "Shelly",
+    "type": "Turtle",
+    "breed": "Painted Turtle",
+    "age": 10,
+    "weight": "1.5kg",
+    "vaccinated": false
+  },
+  {
+    "id": 45,
+    "name": "Duke",
+    "type": "Dog",
+    "breed": "Great Dane",
+    "age": 8,
+    "weight": "50kg",
+    "vaccinated": true
+  }
+]

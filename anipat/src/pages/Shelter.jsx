@@ -25,6 +25,18 @@ const Shelter = () => {
     return (
         <>
             <section id="pet-adoption">
+                <div className="bradcam_area breadcam_bg" style={{ width: '100%' }}>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="bradcam_text text-center">
+                                    <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/shelter"> Shelter</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
                 <h2 className="text-center mb-4">Adoption Library</h2>
                 <div className="text-center mb-4">
                     <button onClick={() => setFilter('all')} className={`btn ${filter === 'all' ? 'btn-primary' : 'btn-outline-primary'} mx-1`}>All</button>
@@ -89,13 +101,13 @@ const Shelter = () => {
                     </div>
 
                     <div className="mt-3">
-                         <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447793428843!2d106.70014831527379!3d10.77698399232079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f499c8f185f%3A0x2931b6bf643a6a1c!2sBitexco%20Financial%20Tower!5e0!3m2!1sen!2s!4v1662888123456!5m2!1sen!2s" 
-                            width="100%" 
-                            height="450" 
-                            style={{ border: 0 }} 
-                            allowFullScreen="" 
-                            loading="lazy" 
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447793428843!2d106.70014831527379!3d10.77698399232079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f499c8f185f%3A0x2931b6bf643a6a1c!2sBitexco%20Financial%20Tower!5e0!3m2!1sen!2s!4v1662888123456!5m2!1sen!2s"
+                            width="100%"
+                            height="450"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                             title="Shelter Location">
                         </iframe>

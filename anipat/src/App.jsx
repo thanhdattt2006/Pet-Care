@@ -1,19 +1,18 @@
 import Footer from "./layouts/Footer"
 import Header from "./layouts/Header"
 import { BrowserRouter, Routes } from 'react-router-dom'
-import createBrowser from "./routes/Routes"
 import './App.css'
+import AppRoutes from "./routes/Routes"
 
 function App() {
-  const routes = createBrowser();
 
   return (
     <>
       <BrowserRouter>
         <Header />
-        <Routes>
-          {routes}
-        </Routes>
+          <>
+            <AppRoutes/>
+          </>
         <Footer />
       </BrowserRouter>
     </>
