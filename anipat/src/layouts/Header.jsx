@@ -56,6 +56,10 @@ export default function Header() {
                                                     Emergency & Vet Help
                                                     </Link>
                                                 </li>
+                                                <li><a href="about">About</a></li>
+                                                <li><a href="feedback">Feedback</a></li>
+                                                <li><a href="shelter">Shelter</a></li>
+                                                <li><a href="contact">Contact</a></li>
                                                 <li><a href="#">blog <i className="ti-angle-down"></i></a>
                                                     <ul className="submenu">
                                                         <li><a href="blog.html">blog</a></li>
@@ -68,8 +72,6 @@ export default function Header() {
 
                                                     </ul>
                                                 </li>
-                                                <li><a href="service.html">services</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
                                             </ul>
                                         </nav>
                                     </div>

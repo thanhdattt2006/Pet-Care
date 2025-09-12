@@ -1,6 +1,10 @@
 import { Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Emergency from "../pages/Emergency_VetHelp";
+import Shelter from "../pages/Shelter";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
+import Feedback from "../pages/Feedback";
 
 const createBrowser = () => {
     return <>
@@ -18,6 +22,12 @@ const createBrowser = () => {
 
         
         {/* người 5:Huy */}
+        <Route path="/shelter" element={<Shelter />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+
     </>
    
 }
