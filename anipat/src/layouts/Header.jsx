@@ -41,16 +41,16 @@ export default function Header() {
                             <div className="row align-items-center">
                                 <div className="col-xl-3 col-lg-3">
                                     <div className="logo">
-                                        <a href="index.html">
+                                        <Link to={'/'}>
                                             <img src="img/logo.png" alt="" />
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-9 col-lg-9">
                                     <div className="main-menu  d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a href="index.html">home</a></li>
+                                                <li><Link to={'/'}>home</Link></li>
                                                 <li>
                                                     <Link to={'/emergency'}>
                                                     Emergency & Vet Help

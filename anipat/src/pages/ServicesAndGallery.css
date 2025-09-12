@@ -1,0 +1,65 @@
+.services-gallery {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+/* 3 khối dịch vụ */
+.services-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.service-card {
+  background: #f7941d;
+  color: #fff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 220px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  background: #ff9800;
+}
+
+.service-card h3 {
+  margin: 15px 0 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.service-card p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* slider */
+.gallery-container {
+  margin-top: 40px;
+}
+
+.gallery-title {
+  color: #f7941d;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.gallery-subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.gallery-slide img {
+  border-radius: 12px;
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
