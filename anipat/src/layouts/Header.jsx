@@ -19,17 +19,17 @@ export default function Header() {
               <div className="col-lg-6 col-md-8">
                 <div className="short_contact_list">
                   <ul>
-                    <li><a href="#">+880 4664 216</a></li>
+                    <li><a href="#">+8477 5255 721</a></li>
                     <li><a href="#">Mon - Sat 10:00 - 7:00</a></li>
                   </ul>
                 </div>
               </div>
               <div className="col-lg-6 col-md-4">
                 <div className="social_media_links">
-                  <a href="#"><i className="fa fa-facebook"></i></a>
-                  <a href="#"><i className="fa fa-pinterest-p"></i></a>
-                  <a href="#"><i className="fa fa-google-plus"></i></a>
-                  <a href="#"><i className="fa fa-linkedin"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61566148584421" target='blank'><i className="fa fa-facebook"></i></a>
+                  <a href="https://github.com/thanhdattt2006/Pet-Care" target='blank'><i className="fa fa-github"></i></a>
+                  <a href="https://www.instagram.com/datdodoc19/"><i className="fa fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/%C4%91%E1%BA%A1t-th%C3%A0nh-619b37340/" target='blank'><i className="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>

@@ -33,13 +33,13 @@ export default function Products() {
   return (
     <div className="products-container">
       <h2 className="section-title best-seller">Best Seller Products</h2>
-      <div className="grid">{bestSeller.map(renderCard)}</div>
+      <div className="grid123">{bestSeller.map(renderCard)}</div>
 
       <h2 className="section-title sale">Sale Products</h2>
-      <div className="grid">{sale.map(renderCard)}</div>
+      <div className="grid123">{sale.map(renderCard)}</div>
 
       <h2 className="section-title new">New & Other Products</h2>
-      <div className="grid">{latest.map(renderCard)}</div>
+      <div className="grid123">{latest.map(renderCard)}</div>
     </div>
   );
 }

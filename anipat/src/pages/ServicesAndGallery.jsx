@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import { Home, Scissors, PawPrint } from "lucide-react"; // icons đẹp
 

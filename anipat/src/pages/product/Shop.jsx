@@ -9,7 +9,6 @@ import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
 import Swal from "sweetalert2";
 
-
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";

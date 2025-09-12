@@ -11,11 +11,11 @@ export default function Footer() {
               <div className="footer_widget">
                 <h3 className="footer_title">Contact Us</h3>
                 <ul className="address_line">
-                  <li>+555 0000 565</li>
+                  <li>+8477 5255 721</li>
                   <li>
-                    <a href="mailto:Demomail@gmail.Com">Demomail@gmail.Com</a>
+                    <a href="mailto:thanhdattt2006@gmail.com">thanhdattt2006@gmail.com</a>
                   </li>
-                  <li>700, Green Lane, New York, USA</li>
+                  <li>35/6 D5 street, Binh Thanh Street, Saigon</li>
                 </ul>
               </div>
             </div>
@@ -25,11 +25,11 @@ export default function Footer() {
               <div className="footer_widget">
                 <h3 className="footer_title">Our Services</h3>
                 <ul className="links">
-                  <li><a href="#">Pet Insurance</a></li>
-                  <li><a href="#">Pet Surgeries</a></li>
-                  <li><a href="#">Pet Adoption</a></li>
-                  <li><a href="#">Dog Insurance</a></li>
-                  <li><a href="#">Cat Insurance</a></li>
+                  <li><a href="/pet-profile">Pet profile</a></li>
+                  <li><a href="/feeding-guide">Feeding guide</a></li>
+                  <li><a href="/grooming-videos">Grooming Videos</a></li>
+                  <li><a href="//health-training-tips">Health & Training Tips</a></li>
+                  <li><a href="/feedback">Feedback</a></li>
                 </ul>
               </div>
             </div>
@@ -39,11 +39,11 @@ export default function Footer() {
               <div className="footer_widget">
                 <h3 className="footer_title">Quick Links</h3>
                 <ul className="links">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Login Info</a></li>
-                  <li><a href="#">Knowledge Base</a></li>
+                  <li><a href="about">About Us</a></li>
+                  <li><a href="emergency">Emergency & Vet Help</a></li>
+                  <li><a href="/shop">Shop</a></li>
+                  <li><a href="/shelter">Shelter</a></li>
+                  <li><a href="/contact">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -57,29 +57,21 @@ export default function Footer() {
                   </a>
                 </div>
                 <p className="address_text">
-                  239 E 5th St, New York NY 10003, USA
+                  35/6 D5 street, Binh Thanh Street, Saigon
                 </p>
                 <div className="socail_links">
                   <ul>
                     <li>
-                      <a href="#">
-                        <i className="ti-facebook"></i>
-                      </a>
+                      <a href="https://github.com/thanhdattt2006/Pet-Care" target='blank'><i className="fa fa-github"></i></a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="ti-pinterest"></i>
-                      </a>
+                      <a href="https://www.facebook.com/profile.php?id=61566148584421" target='blank'><i className="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fa fa-google-plus"></i>
-                      </a>
+                      <a href="https://www.instagram.com/datdodoc19/"><i className="fa fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
+                      <a href="https://www.linkedin.com/in/%C4%91%E1%BA%A1t-th%C3%A0nh-619b37340/" target='blank'><i className="fa fa-linkedin"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -100,11 +92,11 @@ export default function Footer() {
                 | This template is made with{" "}
                 <i className="ti-heart" aria-hidden="true"></i> by{" "}
                 <a
-                  href="https://colorlib.com"
+                  href="https://Unknown.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Colorlib
+                  Unknown
                 </a>
               </p>
             </div>

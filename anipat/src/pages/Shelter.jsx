@@ -43,7 +43,7 @@ const Shelter = () => {
                     <button onClick={() => setFilter('dog')} className={`btn ${filter === 'dog' ? 'btn-primary' : 'btn-outline-primary'} mx-1`}>Dog</button>
                     <button onClick={() => setFilter('cat')} className={`btn ${filter === 'cat' ? 'btn-primary' : 'btn-outline-primary'} mx-1`}>Cat</button>
                 </div>
-                <div className="row">
+                <div className="row container" style={{margin: '0 auto'}}>
                     {filteredPets.map(pet => (
                         <div key={pet.id} className="col-md-4 col-sm-6 mb-4">
                             <div className="card h-100">
@@ -62,7 +62,7 @@ const Shelter = () => {
 
             <section id="success-stories" className="mt-5">
                 <h2 className="text-center mb-4">Succes Story</h2>
-                <div className="row">
+                <div className="row container" style={{margin: '0 auto'}}>
                     {shelterData.successStories.map(story => (
                         <div key={story.id} className="col-md-6 mb-4">
                             <div className="card">
@@ -79,7 +79,7 @@ const Shelter = () => {
 
             <section id="events" className="mt-5">
                 <h2 className="text-center mb-4">Upcoming Events</h2>
-                <ul className="list-group">
+                <ul className="list-group container">
                     {shelterData.events.map(event => (
                         <li key={event.id} className="list-group-item">
                             <h5>{event.title}</h5>
@@ -109,7 +109,9 @@ const Shelter = () => {
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
+                            className='container'
                             title="Shelter Location">
+                            
                         </iframe>
                     </div>
                 </div>

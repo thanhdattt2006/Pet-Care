@@ -28,7 +28,7 @@
   color: #4caf50;
 }
 
-.grid {
+.grid123 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 20px;
