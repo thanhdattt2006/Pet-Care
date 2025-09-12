@@ -8,13 +8,13 @@ const About = () => {
                 <div className="col-12">
                     <div className="card">
                         <div className="card-body">
-                            <h5 className="card-title">About FurEver Care</h5>
+                            <h5 className="card-title">About Anipat Care</h5>
                             <p className="card-text">
-                                Welcome to <strong>FurEver Care</strong> - your trusted companion for all your pet care needs. Our mission is to create a centralized platform where pet owners, veterinarians and rescue shelters can connect and share information easily.
+                                Welcome to <strong>Anipat Care</strong> - your trusted companion for all your pet care needs. Our mission is to create a centralized platform where pet owners, veterinarians and rescue shelters can connect and share information easily.
 
                             </p>
                             <p className="card-text">
-                                We understand that caring for a four-legged friend requires a lot of effort. That's why FurEver Care is built to simplify the process of managing your pet's overall health, nutrition, and happiness.
+                                We understand that caring for a four-legged friend requires a lot of effort. That's why Anipat Care is built to simplify the process of managing your pet's overall health, nutrition, and happiness.
 
                             </p>
 
