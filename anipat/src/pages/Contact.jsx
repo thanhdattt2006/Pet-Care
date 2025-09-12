@@ -2,7 +2,19 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="container my-5">
+        <>
+            <div className="bradcam_area breadcam_bg" style={{ width: '100%' }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="bradcam_text text-center">
+                                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/contact"> Contact</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
             <h2 className="text-center mb-4">Contact Us</h2>
             <div className="row">
                 <div className="col-md-6 mb-4">
@@ -47,7 +59,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

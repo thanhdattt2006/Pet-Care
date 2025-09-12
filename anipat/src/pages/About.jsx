@@ -3,6 +3,18 @@ import React from 'react';
 const About = () => {
     return (
         <>
+            <div className="bradcam_area breadcam_bg" style={{ width: '100%' }}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <div className="bradcam_text text-center">
+                                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/about"> About</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
             <h2 className="text-center mb-4">About Us</h2>
             <div className="row">
                 <div className="col-12">
@@ -18,7 +30,7 @@ const About = () => {
                             <h5>Our Story</h5>
                             <p className="card-text">
                                 Anipat Care was born from an endless love for our furry friends and from the very challenges that we, as pet owners, have personally experienced. Managing tons of information—from vaccination schedules and medical records to dietary plans and finding a reputable vet clinic in an emergency—has always been a challenge. We dreamed of a single place that could solve all these problems. And so, Anipat Care was created.
-                            </p>                            
+                            </p>
                             <h5>Our Vision</h5>
                             <p className="card-text">
                                 We aim to build a comprehensive pet care ecosystem where technology helps remove all barriers, so that every pet can live the healthiest, happiest, and most fulfilling life with their owners.
