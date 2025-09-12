@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Premium Dog Food", "price": 30, "tag": "new", "photo": "pate-cho-cho-vi-thit-bo-iris-one-care-beef100g.jpg" },
+  { "id": 2, "name": "Cat Scratching Post", "price": 45, "tag": "sale", "photo": "xuong-cho-cho-vi-thit-bo-le-vegebrand-orgo-nutrients-beef.jpg" },
+  { "id": 5, "name": "Cat Scratching Post", "price": 65, "tag": "sale", "photo": "bat-an-inox-cho-cho-meo-bobo-melamine-inox-bowl3139h-300x300.jpg" },
+  { "id": 3, "name": "Pet Shampoo", "price": 15, "tag": "bestSeller", "photo": "ta-bim-cho-cho-meo-cai-12-32kg-paw-female-pet-diapers-l-300x300.jpg" },
+  { "id": 4, "name": "Organic Cat Food", "price": 28, "tag": "new", "photo": "thuc-an-cho-cho-con-co-nho-royal-canin-mini-puppy1-300x300.jpg" },
+  { "id": 18, "name": "Luxury Cat Post", "price": 42, "tag": "sale", "photo": "sua-tam-cho-meo-bbn-for-cats-shampoo-300x300.jpg" },
+  { "id": 19, "name": "Herbal Dog Shampoo", "price": 12, "tag": "bestSeller", "photo": "chuong-meo-2-tang-nan-sat-san-co-dinh-iris-pcsc-902a-300x300.jpg" },
+  { "id": 20, "name": "Herbal Dog Shampoo", "price": 23, "tag": "bestSeller", "photo": "dem-cho-cho-meo-thanh-cao-bobby-pet-16ob002-400x400.jpg" },
+  { "id": 21, "name": "Herbal Dog Shampoo", "price": 19, "tag": "bestSeller", "photo": "sua-tam-tri-ghe-cho-cho-meo-alkin-mitecyn-nursing-shampoo1-400x400.jpg" },
+  { "id": 7, "name": "Grain-Free Dog Food", "price": 13, "tag": "new", "photo": "balo-phi-hanh-gia-cho-cho-meo-loffe-the-u-pet-backpack11-400x400.jpg" },
+  { "id": 8, "name": "Interactive Cat Toy", "price": 17, "tag": "sale", "photo": "banh-thuong-cho-cho-vi-thit-ga-nutrabone-chicken-snack-5-400x400.jpg" },
+  { "id": 9, "name": "Fish Oil Supplement", "price": 21, "tag": "new", "photo": "thuc-an-hat-mem-cho-cho-vi-thit-ga-ca-rot-jerhigh-meat-as-meals-chicken-with-carrot-formula-400x400.jpg" },
+  { "id": 10, "name": "Bone Snack Large", "price": 11, "tag": " ", "photo": "z6031480528325_1397c2bf6a47f1a9ab569f57072855e5_5e581d7c9cdd4f7f9fce0b4c4d1afc0e_large.jpg" },
+  { "id": 11, "name": "Deluxe Cat Bed", "price": 55, "tag": "new", "photo": "5740105032188729_560x560.jpg" },
+  { "id": 12, "name": "Vitamin Pack A", "price": 23, "tag": "new", "photo": "jk-lm-40-thit-cuu-que-cho-cho-40g4380_560x560.jpg" },
+  { "id": 13, "name": "Joint Care Supplement", "price": 26, "tag": "new", "photo": "5495741275032178_560x560.jpg" },
+  { "id": 14, "name": "Mini Bone Snack", "price": 9, "tag": "new", "photo": "z52438400988078e529b44e66fe4f10c39a6ee8a33735e3504_560x560.jpg" },
+  { "id": 15, "name": "Luxury Dog Bed", "price": 60, "tag": "new", "photo": "048c747524d181e683f3809750be6b7e7855_560x560.jpg" },
+  { "id": 16, "name": "Vitamin Pack B", "price": 24, "tag": "new", "photo": "tai-xuong4270_560x560.jpg" },
+  { "id": 17, "name": "Skin Care Supplement", "price": 27, "tag": "new", "photo": "8590763922633409_560x560.png" }
+]
