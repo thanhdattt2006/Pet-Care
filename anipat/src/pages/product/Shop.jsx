@@ -143,19 +143,17 @@ export default function Shop() {
 
     return (
         <>
-            <div className="bradcam_area breadcam_bg">
+            <div className="bradcam_area breadcam_bg" style={{width: '100%'}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="bradcam_text text-center">
-                                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{padding: '0rem 1rem', fontSize:'30px'}}></i><a href="/shop"> Shop</a></h3>
+                                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/shop"> Shop</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
             <div className="service_area">
                 <div className="search-container">
                     <IconField iconPosition="left">
