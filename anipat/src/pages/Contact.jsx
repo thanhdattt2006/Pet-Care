@@ -5,7 +5,6 @@ const Contact = () => {
         <div className="container my-5">
             <h2 className="text-center mb-4">Contact Us</h2>
             <div className="row">
-                {/* Static contact information */}
                 <div className="col-md-6 mb-4">
                     <div className="card h-100">
                         <div className="card-body">
@@ -19,7 +18,6 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* Google Maps */}
                 <div className="col-md-6 mb-4">
                     <div className="card h-100">
                         <div className="card-body p-0">

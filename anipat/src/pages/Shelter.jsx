@@ -24,11 +24,9 @@ const Shelter = () => {
 
     return (
         <>
-            {/* Gallery Thú Cưng Nhận Nuôi */}
             <section id="pet-adoption">
                 <h2 className="text-center mb-4">Adoption Library</h2>
                 <div className="text-center mb-4">
-                    {/* Nút lọc thú cưng */}
                     <button onClick={() => setFilter('all')} className={`btn ${filter === 'all' ? 'btn-primary' : 'btn-outline-primary'} mx-1`}>All</button>
                     <button onClick={() => setFilter('dog')} className={`btn ${filter === 'dog' ? 'btn-primary' : 'btn-outline-primary'} mx-1`}>Dog</button>
                     <button onClick={() => setFilter('cat')} className={`btn ${filter === 'cat' ? 'btn-primary' : 'btn-outline-primary'} mx-1`}>Cat</button>
@@ -50,7 +48,6 @@ const Shelter = () => {
                 </div>
             </section>
 
-            {/* Câu Chuyện Thành Công */}
             <section id="success-stories" className="mt-5">
                 <h2 className="text-center mb-4">Succes Story</h2>
                 <div className="row">
@@ -68,7 +65,6 @@ const Shelter = () => {
                 </div>
             </section>
 
-            {/* Sự Kiện */}
             <section id="events" className="mt-5">
                 <h2 className="text-center mb-4">Upcoming Events</h2>
                 <ul className="list-group">
@@ -82,7 +78,6 @@ const Shelter = () => {
                 </ul>
             </section>
 
-            {/* Thông Tin Liên Hệ */}
             <section id="shelter-contact" className="mt-5">
                 <h2 className="text-center mb-4">Contact</h2>
                 <div className="card text-center">
@@ -92,7 +87,7 @@ const Shelter = () => {
                         <p className="card-text"><strong>Phone:</strong> {shelterData.contactInfo.phone}</p>
                         <p className="card-text"><strong>Email:</strong> {shelterData.contactInfo.email}</p>
                     </div>
-                    {/* Nhúng Google Map */}
+
                     <div className="mt-3">
                          <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.447793428843!2d106.70014831527379!3d10.77698399232079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f499c8f185f%3A0x2931b6bf643a6a1c!2sBitexco%20Financial%20Tower!5e0!3m2!1sen!2s!4v1662888123456!5m2!1sen!2s" 

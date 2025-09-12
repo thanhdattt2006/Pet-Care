@@ -60,18 +60,6 @@ export default function Header() {
                                                 <li><a href="feedback">Feedback</a></li>
                                                 <li><a href="shelter">Shelter</a></li>
                                                 <li><a href="contact">Contact</a></li>
-                                                <li><a href="#">blog <i className="ti-angle-down"></i></a>
-                                                    <ul className="submenu">
-                                                        <li><a href="blog.html">blog</a></li>
-                                                        <li><a href="single-blog.html">single-blog</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">pages <i className="ti-angle-down"></i></a>
-                                                    <ul className="submenu">
-                                                        <li><a href="elements.html">elements</a></li>
-
-                                                    </ul>
-                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
