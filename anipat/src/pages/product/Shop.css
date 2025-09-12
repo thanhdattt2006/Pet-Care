@@ -11,8 +11,17 @@
   text-align: center;
 }
 
+img {
+  padding: 5px 10px;
+  border-radius: 10px;
+  
+}
+
 img:hover {
-    cursor: pointer;
+  cursor: pointer;
+  transform: scale(1.05); /* phóng to 5% */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
 }
 
 h4:hover {
@@ -20,7 +29,7 @@ h4:hover {
 }
 
 .search-container {
-    max-width: 66%;
+    max-width: 48%;
     margin: 0 auto;
     margin-top: -6rem;
     margin-bottom: 2rem; /* khoảng cách với phần dưới */
@@ -31,4 +40,51 @@ h4:hover {
     font-size: 16px;     /* chỉnh size text */
     padding: 0.75rem 2.2rem;
     border-radius: 8px;  /* bo góc */
+}
+
+/* Layout cho desktop */
+.area {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Responsive cho tablet và mobile */
+@media (max-width: 992px) {
+  .area {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .product {
+    width: 100%;
+  }
+
+  .search-container {
+    max-width: 100%;
+    margin-top: 1rem; /* bớt âm margin */
+    padding: 0 1rem;
+  }
+
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .product-item {
+    flex-direction: column; /* card xếp dọc */
+    text-align: center;
+  }
+
+  .product-item img {
+    margin: 0 auto 1rem auto;
+  }
+
+  .product-item div {
+    flex: unset;
+  }
 }

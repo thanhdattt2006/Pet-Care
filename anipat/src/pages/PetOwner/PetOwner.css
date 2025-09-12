@@ -1,0 +1,84 @@
+/* Căn giữa text trong phần header */
+.p-datatable .p-datatable-thead > tr > th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+/* Đảm bảo nội dung trong wrapper của header cũng căn giữa */
+.p-datatable .p-datatable-thead > tr > th .p-column-header-content {
+  justify-content: center !important;
+}
+
+/* ✅ Căn giữa chữ Dog Grooming / Cat Grooming */
+/* Reset lại margin & padding mặc định */
+.p-tabview .p-tabview-nav {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 2rem;
+  padding-left: 0 !important;  /* fix lệch phải */
+  margin-left: 0 !important;   /* fix lệch phải */
+}
+
+
+.p-tabview .p-tabview-nav li {
+  flex: 0 0 auto !important; /* ❌ không chiếm hết chiều rộng */
+  display: flex !important;
+  justify-content: center !important;
+  transform: translateX(100px); 
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 0.75rem 1.5rem; /* căn padding gọn hơn */
+}
+
+/* PetOwner.css (thêm phần responsive) */
+
+.page-container {
+  padding: 1rem; /* khoảng cách thoáng */
+}
+
+/* đảm bảo wrapper cho bảng có thể scroll ngang nếu cần */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Một số tinh chỉnh cho DataTable */
+.p-datatable {
+  border-radius: 6px;
+  background: #fff;
+}
+
+/* Mobile specific */
+@media (max-width: 768px) {
+  /* nếu bạn dùng stack layout, header của table bị ẩn (prime react thêm label), nên bỏ min-width */
+  .p-datatable .p-datatable-table {
+    width: 100% !important;
+  }
+
+  /* thu nhỏ padding, font cho dễ nhìn */
+  .p-datatable .p-datatable-tbody > tr > td,
+  .p-datatable .p-datatable-thead > tr > th {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.9rem;
+  }
+
+  /* nếu có tittle banner lớn, giảm margin-top cho mobile */
+  .bradcam_area {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .p-datatable .p-datatable-tbody > tr > td,
+  .p-datatable .p-datatable-thead > tr > th {
+    padding: 0.6rem 0.8rem;
+  }
+}

@@ -1,3 +1,7 @@
-:root {
-    
+.header-top_area .container {
+    padding: 0px;
+}
+
+#sticky-header .container {
+    padding: 0px;
 }
