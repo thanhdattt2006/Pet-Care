@@ -1,24 +1,20 @@
 import Footer from "./layouts/Footer"
 import Header from "./layouts/Header"
-import Main from "./layouts/Main"
-import Newsletter from "./layouts/Newsletter"
-import Slider from "./layouts/Slider"
 import { BrowserRouter, Routes } from 'react-router-dom'
+import createBrowser from "./routes/Routes"
+import './App.css'
 
 function App() {
-
+  const routes = createBrowser();
 
   return (
     <>
       <BrowserRouter>
         <Header />
-        
-
-        <Main />
-        
-        <Newsletter />
-        
-        <Footer/>
+        <Routes>
+          {routes}
+        </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )

@@ -6,11 +6,9 @@ export default function Main() {
   let routes = createBrowser();
   return (
     <>
-      <div className="container my-5">
         <Routes>
           {routes}
         </Routes>
-      </div>
     </>
   )
 }

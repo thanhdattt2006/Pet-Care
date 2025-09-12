@@ -1,7 +1,13 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import 'primeicons/primeicons.css';
+import { useState } from 'react';
+import { useCart } from "../context/CartContext";
+// import { Dialog } from "primereact/dialog";
+import CartSidebar from "../context/CartSidebar";
 
 export default function Header() {
+    const [hover, setHover] = useState(false);
+    const { cartItems, removeFromCart, clearCart } = useCart();
+    const [visible, setVisible] = useState(false);
     return (
         <>
             <header>
@@ -52,9 +58,9 @@ export default function Header() {
                                             <ul id="navigation">
                                                 <li><a href="index.html">home</a></li>
                                                 <li>
-                                                    <Link to={'/emergency'}>
-                                                    Emergency & Vet Help
-                                                    </Link>
+                                                    <a href="/emergency">
+                                                        Emergency & Vet Help
+                                                    </a>
                                                 </li>
                                                 <li><a href="#">pages <i className="ti-angle-down"></i></a>
                                                     <ul className="submenu">
@@ -65,6 +71,95 @@ export default function Header() {
                                                 <li><a href="/shop">Shop</a></li>
                                                 <li><a href="service.html">services</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
+                                                <li
+                                                    style={{
+                                                        cursor: "pointer",
+                                                        color: hover ? "#f96a29" : "inherit",
+                                                        transition: "color 0.2s ease",
+                                                        listStyle: "none"
+                                                    }}
+                                                    onMouseEnter={() => setHover(true)}
+                                                    onMouseLeave={() => setHover(false)}
+                                                    onClick={() => setVisible(true)}
+                                                >
+                                                    <i className="pi pi-shopping-cart"></i>
+                                                    {cartItems.length > 0 && (
+                                                        <span style={{ marginLeft: "4px" }}>({cartItems.length})</span>
+                                                    )}
+                                                </li>
+
+                                                {/* <Dialog
+                                                    header="Your Cart"
+                                                    visible={visible}
+                                                    style={{ width: "22rem", height:'150%' }}
+                                                    onHide={() => setVisible(false)}
+                                                    position='right'
+                                                >
+                                                    {cartItems.length === 0 ? (
+                                                        <p>No items in cart</p>
+                                                    ) : (
+                                                        <ul style={{ padding: 0 }}>
+                                                            {cartItems.map((item) => (
+                                                                <li
+                                                                    key={item.id}
+                                                                    style={{
+                                                                        display: "flex",
+                                                                        justifyContent: "space-between",
+                                                                        alignItems: "center",
+                                                                        marginBottom: "0.5rem",
+                                                                        listStyle: "none"
+                                                                    }}
+                                                                >
+                                                                    <span>
+                                                                        {item.name} x {item.quantity}
+                                                                    </span>
+                                                                    <button
+                                                                        style={{
+                                                                            background: "none",
+                                                                            border: "none",
+                                                                            color: "red",
+                                                                            cursor: "pointer"
+                                                                        }}
+                                                                        onClick={() => removeFromCart(item.id)}
+                                                                    >
+                                                                        Remove
+                                                                    </button>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    )}
+                                                    {cartItems.length > 0 && (
+                                                        <div style={{ marginTop: "1rem", textAlign: "right" }}>
+                                                            <button
+                                                                style={{
+                                                                    background: "#f96a29",
+                                                                    border: "none",
+                                                                    color: "#fff",
+                                                                    padding: "0.5rem 1rem",
+                                                                    borderRadius: "4px",
+                                                                    cursor: "pointer",
+                                                                    marginRight: "0.5rem"
+                                                                }}
+                                                                onClick={clearCart}
+                                                            >
+                                                                Clear Cart
+                                                            </button>
+                                                            <button
+                                                                style={{
+                                                                    background: "#191D34",
+                                                                    border: "none",
+                                                                    color: "#fff",
+                                                                    padding: "0.5rem 1rem",
+                                                                    borderRadius: "4px",
+                                                                    cursor: "pointer"
+                                                                }}
+                                                            >
+                                                                Checkout
+                                                            </button>
+                                                        </div>
+                                                    )}
+                                                </Dialog> */}
+                                                <CartSidebar visible={visible} setVisible={setVisible} />
                                             </ul>
                                         </nav>
                                     </div>
