@@ -1,0 +1,909 @@
+{
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Royal Canin",
+      "country": "France",
+      "contact": "info@royalcanin.com"
+    },
+    {
+      "id": 2,
+      "name": "Hill's Pet Nutrition",
+      "country": "USA",
+      "contact": "customer@hillspet.com"
+    },
+    {
+      "id": 3,
+      "name": "Purina",
+      "country": "USA",
+      "contact": "support@purina.com"
+    },
+    {
+      "id": 4,
+      "name": "Mars Petcare",
+      "country": "USA",
+      "contact": "contact@marspetcare.com"
+    },
+    {
+      "id": 5,
+      "name": "Blue Buffalo",
+      "country": "USA",
+      "contact": "info@bluebuffalo.com"
+    },
+    {
+      "id": 6,
+      "name": "Wellness Pet Company",
+      "country": "USA",
+      "contact": "support@wellnesspetfood.com"
+    },
+    {
+      "id": 7,
+      "name": "Petco",
+      "country": "USA",
+      "contact": "customer@petco.com"
+    },
+    {
+      "id": 8,
+      "name": "Spectrum Brands",
+      "country": "USA",
+      "contact": "info@spectrumbrands.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Dog Food",
+      "products": [
+        {
+          "id": 101,
+          "name": "Dry Kibble Beef Flavor 2kg",
+          "price": 12.99,
+          "description": "Premium dry food made with real beef for adult dogs.",
+          "ingredients": [
+            "Beef meal",
+            "Rice",
+            "Corn",
+            "Chicken fat",
+            "Vitamins"
+          ],
+          "benefits": [
+            "Strong muscles",
+            "Improves digestion",
+            "Shiny coat"
+          ],
+          "image": "https://picsum.photos/seed/101/400/400",
+          "supplierId": 1
+        },
+        {
+          "id": 102,
+          "name": "Chicken Pâté Can 400g",
+          "price": 3.49,
+          "description": "Soft pâté with chicken and natural oils for dogs.",
+          "ingredients": [
+            "Chicken",
+            "Carrots",
+            "Rice",
+            "Fish oil"
+          ],
+          "benefits": [
+            "Healthy skin",
+            "High protein",
+            "Easy digestion"
+          ],
+          "image": "https://picsum.photos/seed/102/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 103,
+          "name": "Lamb & Rice Puppy Food 1.5kg",
+          "price": 14.50,
+          "description": "Balanced formula for growing puppies.",
+          "ingredients": [
+            "Lamb",
+            "Rice",
+            "Peas",
+            "Vitamins"
+          ],
+          "benefits": [
+            "Growth support",
+            "Strong bones",
+            "Boosts immunity"
+          ],
+          "image": "https://picsum.photos/seed/103/400/400",
+          "supplierId": 3
+        },
+        {
+          "id": 104,
+          "name": "Grain-Free Salmon Kibble 2kg",
+          "price": 16.99,
+          "description": "Grain-free kibble with salmon for sensitive dogs.",
+          "ingredients": [
+            "Salmon",
+            "Sweet potato",
+            "Peas",
+            "Omega-3"
+          ],
+          "benefits": [
+            "Hypoallergenic",
+            "Healthy joints",
+            "Shiny coat"
+          ],
+          "image": "https://picsum.photos/seed/104/400/400",
+          "supplierId": 5
+        },
+        {
+          "id": 105,
+          "name": "Duck Jerky Treats 200g",
+          "price": 5.99,
+          "description": "Natural duck jerky training treats.",
+          "ingredients": [
+            "Duck",
+            "Vegetable glycerin"
+          ],
+          "benefits": [
+            "Reward training",
+            "High protein"
+          ],
+          "image": "https://picsum.photos/seed/105/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 106,
+          "name": "Chewy Bones with Calcium 500g",
+          "price": 8.49,
+          "description": "Chewy bones fortified with calcium.",
+          "ingredients": [
+            "Beef hide",
+            "Calcium carbonate"
+          ],
+          "benefits": [
+            "Dental care",
+            "Strong teeth",
+            "Fun chewing"
+          ],
+          "image": "https://picsum.photos/seed/106/400/400",
+          "supplierId": 4
+        },
+        {
+          "id": 107,
+          "name": "Vegetarian Dog Biscuits 1kg",
+          "price": 9.99,
+          "description": "Baked biscuits with vegetables for dogs.",
+          "ingredients": [
+            "Wheat flour",
+            "Carrots",
+            "Spinach"
+          ],
+          "benefits": [
+            "Low fat",
+            "Rich fiber",
+            "Healthy snack"
+          ],
+          "image": "https://picsum.photos/seed/107/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 108,
+          "name": "Senior Dog Food Turkey 2kg",
+          "price": 15.75,
+          "description": "Special formula for senior dogs with turkey.",
+          "ingredients": [
+            "Turkey",
+            "Brown rice",
+            "Glucosamine"
+          ],
+          "benefits": [
+            "Joint support",
+            "Easily digestible"
+          ],
+          "image": "https://picsum.photos/seed/108/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 109,
+          "name": "Beef Flavored Dental Sticks 200g",
+          "price": 4.50,
+          "description": "Dental care sticks with beef flavor.",
+          "ingredients": [
+            "Cereal",
+            "Beef flavor",
+            "Calcium"
+          ],
+          "benefits": [
+            "Prevents tartar",
+            "Fresh breath"
+          ],
+          "image": "https://picsum.photos/seed/109/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 110,
+          "name": "Fish Oil Capsules for Dogs 60pcs",
+          "price": 11.25,
+          "description": "Omega-3 supplement capsules for dogs.",
+          "ingredients": [
+            "Fish oil",
+            "Gelatin capsule"
+          ],
+          "benefits": [
+            "Skin health",
+            "Brain support"
+          ],
+          "image": "https://picsum.photos/seed/110/400/400",
+          "supplierId": 6
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cat Food",
+      "products": [
+        {
+          "id": 201,
+          "name": "Dry Salmon Cat Food 1.5kg",
+          "price": 13.50,
+          "description": "Dry food with salmon for adult cats.",
+          "ingredients": [
+            "Salmon",
+            "Rice",
+            "Chicken meal"
+          ],
+          "benefits": [
+            "Muscle health",
+            "Shiny fur"
+          ],
+          "image": "https://picsum.photos/seed/201/400/400",
+          "supplierId": 1
+        },
+        {
+          "id": 202,
+          "name": "Tuna Pâté Can 400g",
+          "price": 3.25,
+          "description": "Moist pâté with tuna for cats.",
+          "ingredients": [
+            "Tuna",
+            "Fish oil",
+            "Vitamins"
+          ],
+          "benefits": [
+            "Rich protein",
+            "Supports eyes"
+          ],
+          "image": "https://picsum.photos/seed/202/400/400",
+          "supplierId": 4
+        },
+        {
+          "id": 203,
+          "name": "Kitten Starter Food 1kg",
+          "price": 10.99,
+          "description": "Small kibble for kittens up to 12 months.",
+          "ingredients": [
+            "Chicken",
+            "Rice",
+            "Milk powder"
+          ],
+          "benefits": [
+            "Growth support",
+            "Stronger bones"
+          ],
+          "image": "https://picsum.photos/seed/203/400/400",
+          "supplierId": 3
+        },
+        {
+          "id": 204,
+          "name": "Hairball Control Formula 2kg",
+          "price": 14.99,
+          "description": "Special food to reduce hairball formation.",
+          "ingredients": [
+            "Chicken",
+            "Beet pulp",
+            "Fiber blend"
+          ],
+          "benefits": [
+            "Supports digestion",
+            "Less hairball"
+          ],
+          "image": "https://picsum.photos/seed/204/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 205,
+          "name": "Dental Treats for Cats 100g",
+          "price": 4.10,
+          "description": "Crunchy treats that help clean teeth.",
+          "ingredients": [
+            "Cereals",
+            "Chicken flavor"
+          ],
+          "benefits": [
+            "Dental health",
+            "Fun snack"
+          ],
+          "image": "https://picsum.photos/seed/205/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 206,
+          "name": "Grain-Free Duck Cat Food 1.5kg",
+          "price": 15.25,
+          "description": "Duck-based grain-free formula.",
+          "ingredients": [
+            "Duck",
+            "Potato",
+            "Peas"
+          ],
+          "benefits": [
+            "Hypoallergenic",
+            "Digestive health"
+          ],
+          "image": "https://picsum.photos/seed/206/400/400",
+          "supplierId": 5
+        },
+        {
+          "id": 207,
+          "name": "Senior Cat Food Chicken 2kg",
+          "price": 16.20,
+          "description": "Easily digestible food for senior cats.",
+          "ingredients": [
+            "Chicken",
+            "Rice",
+            "Omega-3"
+          ],
+          "benefits": [
+            "Joint support",
+            "Heart health"
+          ],
+          "image": "https://picsum.photos/seed/207/400/400",
+          "supplierId": 1
+        },
+        {
+          "id": 208,
+          "name": "Cat Milk Substitute 200ml",
+          "price": 2.80,
+          "description": "Milk formula safe for kittens.",
+          "ingredients": [
+            "Milk proteins",
+            "Vitamins",
+            "Taurine"
+          ],
+          "benefits": [
+            "Supports growth",
+            "Safe for stomach"
+          ],
+          "image": "https://picsum.photos/seed/208/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 209,
+          "name": "Freeze-Dried Salmon Treats 50g",
+          "price": 6.50,
+          "description": "100% freeze-dried salmon cubes.",
+          "ingredients": [
+            "Salmon"
+          ],
+          "benefits": [
+            "High protein",
+            "Natural snack"
+          ],
+          "image": "https://picsum.photos/seed/209/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 210,
+          "name": "Pouch Gravy Chicken 85g",
+          "price": 1.90,
+          "description": "Wet food pouch with chicken in gravy.",
+          "ingredients": [
+            "Chicken",
+            "Gravy",
+            "Minerals"
+          ],
+          "benefits": [
+            "Tasty meal",
+            "Hydration"
+          ],
+          "image": "https://picsum.photos/seed/210/400/400",
+          "supplierId": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Grooming & Bath",
+      "products": [
+        {
+          "id": 301,
+          "name": "Whitening Dog Shampoo 500ml",
+          "price": 9.99,
+          "description": "Shampoo for white-coated dogs.",
+          "ingredients": [
+            "Aloe vera",
+            "Chamomile",
+            "Mild surfactants"
+          ],
+          "benefits": [
+            "Brightens coat",
+            "Gentle cleaning"
+          ],
+          "image": "https://picsum.photos/seed/301/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 302,
+          "name": "Deodorizing Cat Shampoo 400ml",
+          "price": 8.50,
+          "description": "Removes odor and keeps fur soft.",
+          "ingredients": [
+            "Green tea extract",
+            "Vitamin E"
+          ],
+          "benefits": [
+            "Fresh smell",
+            "Skin friendly"
+          ],
+          "image": "https://picsum.photos/seed/302/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 303,
+          "name": "Conditioner Spray 250ml",
+          "price": 7.75,
+          "description": "Leave-in conditioner spray for dogs and cats.",
+          "ingredients": [
+            "Argan oil",
+            "Keratin",
+            "Panthenol"
+          ],
+          "benefits": [
+            "Detangles",
+            "Smooth coat"
+          ],
+          "image": "https://picsum.photos/seed/303/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 304,
+          "name": "Pet Grooming Glove",
+          "price": 5.50,
+          "description": "Silicone glove for brushing pets.",
+          "ingredients": [
+            "Silicone",
+            "Polyester"
+          ],
+          "benefits": [
+            "Removes loose hair",
+            "Massage effect"
+          ],
+          "image": "https://picsum.photos/seed/304/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 305,
+          "name": "Silent Pet Clipper",
+          "price": 35.00,
+          "description": "Low-noise electric clipper.",
+          "ingredients": [
+            "Stainless steel blade",
+            "Rechargeable battery"
+          ],
+          "benefits": [
+            "Precise cut",
+            "Low stress"
+          ],
+          "image": "https://picsum.photos/seed/305/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 306,
+          "name": "Dual-Sided Grooming Brush",
+          "price": 6.99,
+          "description": "Brush with pin and bristle sides.",
+          "ingredients": [
+            "Plastic",
+            "Metal pins"
+          ],
+          "benefits": [
+            "Removes mats",
+            "Stimulates skin"
+          ],
+          "image": "https://picsum.photos/seed/306/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 307,
+          "name": "Pet Cologne Spray 100ml",
+          "price": 7.25,
+          "description": "Fragrance spray for pets.",
+          "ingredients": [
+            "Aloe vera",
+            "Natural fragrance"
+          ],
+          "benefits": [
+            "Fresh scent",
+            "Safe for coat"
+          ],
+          "image": "https://picsum.photos/seed/307/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 308,
+          "name": "Pet Wipes 80pcs",
+          "price": 4.99,
+          "description": "Gentle wipes for quick cleaning.",
+          "ingredients": [
+            "Aloe vera",
+            "Vitamin E"
+          ],
+          "benefits": [
+            "On-the-go cleaning",
+            "Moisturizing"
+          ],
+          "image": "https://picsum.photos/seed/308/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 309,
+          "name": "Ear Cleaner Solution 100ml",
+          "price": 9.50,
+          "description": "Cleans and protects pet ears.",
+          "ingredients": [
+            "Chamomile",
+            "Lactic acid"
+          ],
+          "benefits": [
+            "Reduces wax",
+            "Prevents infection"
+          ],
+          "image": "https://picsum.photos/seed/309/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 310,
+          "name": "Detangling Spray 200ml",
+          "price": 8.99,
+          "description": "Spray to detangle long hair.",
+          "ingredients": [
+            "Coconut oil",
+            "Silicone"
+          ],
+          "benefits": [
+            "Easier brushing",
+            "Shiny coat"
+          ],
+          "image": "https://picsum.photos/seed/310/400/400",
+          "supplierId": 6
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Accessories",
+      "products": [
+        {
+          "id": 401,
+          "name": "Leather Collar Size S",
+          "price": 12.00,
+          "description": "Durable leather collar for small dogs.",
+          "ingredients": [
+            "Leather",
+            "Metal buckle"
+          ],
+          "benefits": [
+            "Strong",
+            "Comfortable"
+          ],
+          "image": "https://picsum.photos/seed/401/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 402,
+          "name": "Adjustable Harness M",
+          "price": 15.50,
+          "description": "Padded harness for medium dogs.",
+          "ingredients": [
+            "Nylon",
+            "Foam padding"
+          ],
+          "benefits": [
+            "Comfort",
+            "Control"
+          ],
+          "image": "https://picsum.photos/seed/402/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 403,
+          "name": "Travel Water Bottle 350ml",
+          "price": 9.75,
+          "description": "Portable water bottle for pets.",
+          "ingredients": [
+            "Plastic",
+            "Silicone"
+          ],
+          "benefits": [
+            "Hydration outdoors",
+            "Leak-proof"
+          ],
+          "image": "https://picsum.photos/seed/403/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 404,
+          "name": "Pet Hoodie Winter L",
+          "price": 18.99,
+          "description": "Warm hoodie for pets in winter.",
+          "ingredients": [
+            "Cotton",
+            "Polyester"
+          ],
+          "benefits": [
+            "Warmth",
+            "Cute look"
+          ],
+          "image": "https://picsum.photos/seed/404/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 405,
+          "name": "Transparent Travel Backpack",
+          "price": 39.90,
+          "description": "Backpack carrier with ventilation.",
+          "ingredients": [
+            "Plastic shell",
+            "Mesh"
+          ],
+          "benefits": [
+            "Easy transport",
+            "Comfortable"
+          ],
+          "image": "https://picsum.photos/seed/405/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 406,
+          "name": "Stainless Steel Feeding Bowl",
+          "price": 7.25,
+          "description": "Non-slip stainless steel food bowl.",
+          "ingredients": [
+            "Stainless steel",
+            "Rubber base"
+          ],
+          "benefits": [
+            "Hygienic",
+            "Durable"
+          ],
+          "image": "https://picsum.photos/seed/406/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 407,
+          "name": "Pet Bed Soft Cotton M",
+          "price": 25.00,
+          "description": "Soft cotton pet bed for cats and dogs.",
+          "ingredients": [
+            "Cotton",
+            "Foam"
+          ],
+          "benefits": [
+            "Comfort",
+            "Washable cover"
+          ],
+          "image": "https://picsum.photos/seed/407/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 408,
+          "name": "Chew Toy Rope Knot",
+          "price": 4.75,
+          "description": "Strong rope toy for chewing.",
+          "ingredients": [
+            "Cotton rope"
+          ],
+          "benefits": [
+            "Dental cleaning",
+            "Fun play"
+          ],
+          "image": "https://picsum.photos/seed/408/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 409,
+          "name": "Cat Scratching Post",
+          "price": 29.90,
+          "description": "Tall scratching post for cats.",
+          "ingredients": [
+            "Sisal rope",
+            "Wood"
+          ],
+          "benefits": [
+            "Protects furniture",
+            "Exercise"
+          ],
+          "image": "https://picsum.photos/seed/409/400/400",
+          "supplierId": 7
+        },
+        {
+          "id": 410,
+          "name": "Pet Blanket Fleece",
+          "price": 14.20,
+          "description": "Soft fleece blanket for pets.",
+          "ingredients": [
+            "Fleece"
+          ],
+          "benefits": [
+            "Warmth",
+            "Comfort"
+          ],
+          "image": "https://picsum.photos/seed/410/400/400",
+          "supplierId": 8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Health & Supplements",
+      "products": [
+        {
+          "id": 501,
+          "name": "Multivitamin Tablets 60pcs",
+          "price": 18.00,
+          "description": "Daily vitamins for dogs and cats.",
+          "ingredients": [
+            "Vitamin A",
+            "Vitamin D",
+            "Minerals"
+          ],
+          "benefits": [
+            "Overall health",
+            "Stronger immunity"
+          ],
+          "image": "https://picsum.photos/seed/501/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 502,
+          "name": "Calcium Powder 150g",
+          "price": 11.50,
+          "description": "Calcium supplement for bones.",
+          "ingredients": [
+            "Calcium carbonate",
+            "Vitamin D3"
+          ],
+          "benefits": [
+            "Bone strength",
+            "Growth support"
+          ],
+          "image": "https://picsum.photos/seed/502/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 503,
+          "name": "Probiotic Sachets 10pcs",
+          "price": 13.25,
+          "description": "Probiotics for better digestion.",
+          "ingredients": [
+            "Lactobacillus",
+            "Inulin"
+          ],
+          "benefits": [
+            "Gut health",
+            "Stronger immunity"
+          ],
+          "image": "https://picsum.photos/seed/503/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 504,
+          "name": "Joint Care Chews 30pcs",
+          "price": 19.90,
+          "description": "Chews with glucosamine for joints.",
+          "ingredients": [
+            "Glucosamine",
+            "Chondroitin"
+          ],
+          "benefits": [
+            "Joint support",
+            "Mobility"
+          ],
+          "image": "https://picsum.photos/seed/504/400/400",
+          "supplierId": 1
+        },
+        {
+          "id": 505,
+          "name": "Skin & Coat Omega Oil 250ml",
+          "price": 15.75,
+          "description": "Oil supplement with omega fatty acids.",
+          "ingredients": [
+            "Fish oil",
+            "Flaxseed oil"
+          ],
+          "benefits": [
+            "Shiny coat",
+            "Healthy skin"
+          ],
+          "image": "https://picsum.photos/seed/505/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 506,
+          "name": "Eye Care Drops 30ml",
+          "price": 9.80,
+          "description": "Drops for clear and healthy eyes.",
+          "ingredients": [
+            "Saline",
+            "Vitamin A"
+          ],
+          "benefits": [
+            "Prevents irritation",
+            "Supports vision"
+          ],
+          "image": "https://picsum.photos/seed/506/400/400",
+          "supplierId": 8
+        },
+        {
+          "id": 507,
+          "name": "Immune Booster Syrup 100ml",
+          "price": 12.50,
+          "description": "Syrup for boosting immunity.",
+          "ingredients": [
+            "Echinacea",
+            "Vitamin C"
+          ],
+          "benefits": [
+            "Stronger defense",
+            "Faster recovery"
+          ],
+          "image": "https://picsum.photos/seed/507/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 508,
+          "name": "Calming Chews 20pcs",
+          "price": 14.40,
+          "description": "Chews to reduce stress in pets.",
+          "ingredients": [
+            "Chamomile",
+            "Valerian root"
+          ],
+          "benefits": [
+            "Calm behavior",
+            "Less anxiety"
+          ],
+          "image": "https://picsum.photos/seed/508/400/400",
+          "supplierId": 2
+        },
+        {
+          "id": 509,
+          "name": "Digestive Enzyme Powder 100g",
+          "price": 13.75,
+          "description": "Enzyme powder for better digestion.",
+          "ingredients": [
+            "Amylase",
+            "Protease"
+          ],
+          "benefits": [
+            "Nutrient absorption",
+            "Gut balance"
+          ],
+          "image": "https://picsum.photos/seed/509/400/400",
+          "supplierId": 6
+        },
+        {
+          "id": 510,
+          "name": "Flea & Tick Oral Tablets 10pcs",
+          "price": 22.00,
+          "description": "Tablets to prevent fleas and ticks.",
+          "ingredients": [
+            "Isoxazoline compound"
+          ],
+          "benefits": [
+            "Parasite protection",
+            "Long-lasting"
+          ],
+          "image": "https://picsum.photos/seed/510/400/400",
+          "supplierId": 1
+        }
+      ]
+    }
+  ]
+}

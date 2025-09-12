@@ -1,18 +1,20 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
 
 // import pages
-import Home from '../pages/Home'
-import Emergency from '../pages/Emergency_VetHelp'
-import Shelter from '../pages/Shelter'
-import Contact from '../pages/Contact'
-import About from '../pages/About'
-import Feedback from '../pages/Feedback'
+import Home from "../pages/Home";
+import ProductDetail from "../pages/product/ProductDetail";
+import Shop from "../pages/product/Shop";
+import Emergency from "../pages/Emergency_VetHelp";
+import Shelter from "../pages/Shelter";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
+import Feedback from "../pages/Feedback";
 
 // group PetOwner
-import FeedingGuide from '../pages/PetOwner/FeedingGuide'
-import GroomingVideos from '../pages/PetOwner/GroomingVideos'
-import HealthTrainingTips from '../pages/PetOwner/HealthTrainingTips'
-import PetProfile from '../pages/PetOwner/PetProfile'
+import FeedingGuide from "../pages/PetOwner/FeedingGuide";
+import GroomingVideos from "../pages/PetOwner/GroomingVideos";
+import HealthTrainingTips from "../pages/PetOwner/HealthTrainingTips";
+import PetProfile from "../pages/PetOwner/PetProfile";
 
 export default function AppRoutes() {
   return (
@@ -27,6 +29,8 @@ export default function AppRoutes() {
       <Route path="/pet-profile" element={<PetProfile />} />
 
       {/* người 3: Đạt */}
+      <Route path="/shop" element={<Shop />} />
+      <Route path="/product-detail" element={<ProductDetail />} />
       <Route path="/emergency" element={<Emergency />} />
 
       {/* người 4: Cường */}
@@ -37,5 +41,5 @@ export default function AppRoutes() {
       <Route path="/feedback" element={<Feedback />} />
       <Route path="/about" element={<About />} />
     </Routes>
-  )
+  );
 }
