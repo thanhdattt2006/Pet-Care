@@ -20,6 +20,18 @@ export default function FeedingGuide() {
 
   return (
     <div className="p-6">
+      <div className="bradcam_area breadcam_bg" style={{ width: '100%' }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="bradcam_text text-center">
+                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/feeding-guide">Feeding Guide</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
       <h2 className="text-2xl font-bold mb-4 text-center border-b pb-2">
         Feeding Guide
       </h2>

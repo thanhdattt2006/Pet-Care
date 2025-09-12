@@ -29,8 +29,8 @@ export default function PetProfile() {
       rowData.type === 'Dog'
         ? 'info'
         : rowData.type === 'Cat'
-        ? 'warning'
-        : 'success'
+          ? 'warning'
+          : 'success'
 
     return <Tag value={rowData.type} severity={severity} />
   }
@@ -56,6 +56,18 @@ export default function PetProfile() {
 
   return (
     <div className="p-6 overflow-x-auto">
+      <div className="bradcam_area breadcam_bg" style={{ width: '100%' }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="bradcam_text text-center">
+                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/pet-profile"> Pet Profile</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
       <h2 className="text-2xl font-bold mb-4 text-center border-b pb-2">
         Pet Profile
       </h2>

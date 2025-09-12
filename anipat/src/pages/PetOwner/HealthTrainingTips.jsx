@@ -25,6 +25,18 @@ export default function HealthTrainingTips() {
   return (
     <div className="p-6">
       {/* ✅ Căn giữa tiêu đề */}
+      <div className="bradcam_area breadcam_bg" style={{ width: '100%' }}>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="bradcam_text text-center">
+                <h3><a href="/">Home </a><i className="pi pi-arrow-right" style={{ padding: '0rem 1rem', fontSize: '30px' }}></i><a href="/health-training-tips"> Health & Training Tips</a></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
       <h2 className="text-2xl font-bold mb-4 text-center">
         Health & Training Tips
       </h2>
