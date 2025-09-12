@@ -13,8 +13,7 @@ function App() {
       <BrowserRouter>
         <Header />
         
-        <Slider />
-        
+
         <Main />
         
         <Newsletter />

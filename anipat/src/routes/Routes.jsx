@@ -1,5 +1,7 @@
 import { Route } from "react-router-dom";
 import Home from "../pages/Home";
+import ProductDetail from "../pages/product/ProductDetail";
+import Shop from "../pages/product/Shop";
 
 const createBrowser = () => {
     return <>
@@ -10,8 +12,8 @@ const createBrowser = () => {
 
 
         {/* người 3:Đạt */}
-
-
+        <Route path='/shop' element={<Shop/>}/>
+        <Route path='/product-detail' element={<ProductDetail/>}/>
         {/* người 4:Cường */}
 
         

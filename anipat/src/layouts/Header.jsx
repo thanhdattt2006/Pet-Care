@@ -63,6 +63,7 @@ export default function Header() {
 
                                                     </ul>
                                                 </li>
+                                                <li><a href="/shop">Shop</a></li>
                                                 <li><a href="service.html">services</a></li>
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
