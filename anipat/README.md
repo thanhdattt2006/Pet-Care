@@ -71,6 +71,9 @@ The project follows the standard folder structure of a React application:
 │ ├── pages/ // Components for each page
 │ │ ├── Home.jsx
 │ │ ├── Shelter.jsx
+│ │ ├── Contact.jsx
+│ │ ├── Feedback.jsx
+│ │ ├── About.jsx
 │ │ └── ...
 │ ├── routes/
 │ │ └── Routes.jsx // Route configuration
