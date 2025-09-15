@@ -178,7 +178,7 @@ export default function Shop() {
                 paddingBottom: "1rem"
             }}
         >
-            <img
+            <img className="product-img"
                 src={item.image}
                 alt={item.name}
                 style={{

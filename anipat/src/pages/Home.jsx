@@ -6,7 +6,6 @@ import ServicesAndGallery from "./ServicesAndGallery";
 // import Intruduct from "./Intruduct";
 import Slider from "../layouts/Slider";
 import Newsletter from "../layouts/Newsletter";
-
 export default function HomePage() {
   const [name, setName] = useState("");
   const [role, setRole] = useState("");
