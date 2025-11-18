@@ -3,14 +3,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-const repoName = 'petcare';
+// Tên repo PHẢI KHỚP chính xác tên repo trên GitHub
+const repoName = 'petcare'; // Ví dụ: Nếu tên repo là 'PetCare', bạn phải dùng 'PetCare'
 
-// ✅ SỬ DỤNG HÀM CÓ ĐIỀU KIỆN
 export default defineConfig(({ command }) => {
   return {
     plugins: [react()],
-    // Nếu đang chạy lệnh 'build' (cho deploy), dùng /tên-repo/.
-    // Nếu đang chạy lệnh 'serve' (dev), dùng /
+    // Điều kiện base đã đúng: /petcare/ cho build, / cho dev
     base: command === 'build' ? `/${repoName}/` : '/',
   };
 });
