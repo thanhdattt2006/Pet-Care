@@ -1,0 +1,92 @@
+{
+  "petsForAdoption": [
+    {
+      "id": 1,
+      "name": "Milo",
+      "type": "dog",
+      "age": "2 years old",
+      "breed": "Golden Retriever",
+      "image": "public/img/adoption/dog1.jpg",
+      "description": "Milo is very friendly and active, loves to play with people."
+    },
+    {
+      "id": 2,
+      "name": "Luna",
+      "type": "cat",
+      "age": "1 years old",
+      "breed": "Vietnamese Cat",
+      "image": "public/img/adoption/cat1.jpg",
+      "description": "Luna is a gentle and docile cat who loves to be petted."
+    },
+    {
+      "id": 3,
+      "name": "Rocky",
+      "type": "dog",
+      "age": "3 years old",
+      "breed": "Husky",
+      "image": "public/img/adoption/dog2.jpg",
+      "description": "Rocky has a majestic appearance but a very sweet and loyal personality."
+    },
+    {
+      "id": 4,
+      "name": "Bella",
+      "type": "cat",
+      "age": "2 years old",
+      "breed": "British Longhair",
+      "image": "public/img/adoption/cat2.jpg",
+      "description": "Bella is a graceful cat who loves quiet spaces."
+    },
+    {
+      "id": 5,
+      "name": "Lucky",
+      "type": "dog",
+      "age": "0.5 years old",
+      "breed": "Vietnamese Dog",
+      "image": "public/img/adoption/dog3.jpg",
+      "description": "Lucky is a graceful dog, likes quiet spaces but is active."
+    },
+    {
+      "id": 6,
+      "name": "Mimi",
+      "type": "cat",
+      "age": "2 years old",
+      "breed": "British Longhair",
+      "image": "public/img/adoption/cat3.jpg",
+      "description": "Mimi is a lovely, graceful cat who likes quiet spaces."
+    }
+  ],
+  "successStories": [
+    {
+      "id": 1,
+      "title": "Max's Journey to Find a New Home",
+      "story": "Max was adopted by a loving family in District 7. Now, the boy has a happy life full of love.",
+      "image": "public/img/success/story1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kitty's new family",
+      "story": "Kitty, Abandoned kitten found a home with a young couple. Kitty brought joy to the whole family.",
+      "image": "public/img/success/story2.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Pet Adoption Day",
+      "date": "28/09/2025",
+      "description": "Come and find yourself a loyal companion at our biggest adoption event of the year."
+    },
+    {
+      "id": 2,
+      "title": "Free Vaccination Campaign",
+      "date": "15/10/2025",
+      "description": "We organize free vaccinations for dogs and cats in the community to prevent dangerous diseases."
+    }
+  ],
+  "contactInfo": {
+    "name": "Anipat Rescue Camp",
+    "address": "123 ABC Street, District 1, Ho Chi Minh City",
+    "phone": "0123-456-789",
+    "email": "contact@furever.com"
+  }
+}

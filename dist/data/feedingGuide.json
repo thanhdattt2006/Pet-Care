@@ -1,0 +1,271 @@
+[
+  { "id": 1, "pet": "Dog", "ageStage": "Puppy", "foodAmount": "3–4 meals/day" },
+  { "id": 2, "pet": "Dog", "ageStage": "Adult", "foodAmount": "2 meals/day" },
+  {
+    "id": 3,
+    "pet": "Dog",
+    "ageStage": "Senior",
+    "foodAmount": "2 small meals/day"
+  },
+
+  {
+    "id": 4,
+    "pet": "Cat",
+    "ageStage": "Kitten",
+    "foodAmount": "4–5 meals/day"
+  },
+  { "id": 5, "pet": "Cat", "ageStage": "Adult", "foodAmount": "2–3 meals/day" },
+  {
+    "id": 6,
+    "pet": "Cat",
+    "ageStage": "Senior",
+    "foodAmount": "2 small meals/day"
+  },
+
+  {
+    "id": 7,
+    "pet": "Rabbit",
+    "ageStage": "Young",
+    "foodAmount": "Unlimited hay + pellets"
+  },
+  {
+    "id": 8,
+    "pet": "Rabbit",
+    "ageStage": "Adult",
+    "foodAmount": "Unlimited hay + veggies"
+  },
+  {
+    "id": 9,
+    "pet": "Rabbit",
+    "ageStage": "Senior",
+    "foodAmount": "Unlimited hay + reduced pellets"
+  },
+
+  {
+    "id": 10,
+    "pet": "Bird",
+    "ageStage": "Chick",
+    "foodAmount": "Every 2–3 hours"
+  },
+  {
+    "id": 11,
+    "pet": "Bird",
+    "ageStage": "Adult",
+    "foodAmount": "2–3 feedings/day"
+  },
+  {
+    "id": 12,
+    "pet": "Bird",
+    "ageStage": "Senior",
+    "foodAmount": "Smaller portions twice/day"
+  },
+
+  {
+    "id": 13,
+    "pet": "Turtle",
+    "ageStage": "Juvenile",
+    "foodAmount": "Daily feeding"
+  },
+  {
+    "id": 14,
+    "pet": "Turtle",
+    "ageStage": "Adult",
+    "foodAmount": "Every 2–3 days"
+  },
+  {
+    "id": 15,
+    "pet": "Turtle",
+    "ageStage": "Senior",
+    "foodAmount": "Light feeding twice/week"
+  },
+
+  {
+    "id": 16,
+    "pet": "Hamster",
+    "ageStage": "Young",
+    "foodAmount": "Unlimited grains + veggies"
+  },
+  {
+    "id": 17,
+    "pet": "Hamster",
+    "ageStage": "Adult",
+    "foodAmount": "2 small meals/day"
+  },
+  {
+    "id": 18,
+    "pet": "Hamster",
+    "ageStage": "Senior",
+    "foodAmount": "Small soft meals/day"
+  },
+
+  {
+    "id": 19,
+    "pet": "Fish",
+    "ageStage": "Juvenile",
+    "foodAmount": "Tiny pinch 3–4 times/day"
+  },
+  {
+    "id": 20,
+    "pet": "Fish",
+    "ageStage": "Adult",
+    "foodAmount": "Small pinch 2–3 times/day"
+  },
+  {
+    "id": 21,
+    "pet": "Fish",
+    "ageStage": "Senior",
+    "foodAmount": "Small pinch once/day"
+  },
+
+  {
+    "id": 22,
+    "pet": "Guinea Pig",
+    "ageStage": "Young",
+    "foodAmount": "Unlimited hay + pellets"
+  },
+  {
+    "id": 23,
+    "pet": "Guinea Pig",
+    "ageStage": "Adult",
+    "foodAmount": "Hay + 1 cup veggies/day"
+  },
+  {
+    "id": 24,
+    "pet": "Guinea Pig",
+    "ageStage": "Senior",
+    "foodAmount": "Hay + softer veggies"
+  },
+
+  {
+    "id": 25,
+    "pet": "Ferret",
+    "ageStage": "Kit",
+    "foodAmount": "4–6 meals/day high protein"
+  },
+  {
+    "id": 26,
+    "pet": "Ferret",
+    "ageStage": "Adult",
+    "foodAmount": "2–3 meals/day high protein"
+  },
+  {
+    "id": 27,
+    "pet": "Ferret",
+    "ageStage": "Senior",
+    "foodAmount": "Small frequent meals"
+  },
+
+  {
+    "id": 28,
+    "pet": "Parrot",
+    "ageStage": "Chick",
+    "foodAmount": "Hand-fed every 3–4 hours"
+  },
+  {
+    "id": 29,
+    "pet": "Parrot",
+    "ageStage": "Adult",
+    "foodAmount": "Pellets + fruits daily"
+  },
+  {
+    "id": 30,
+    "pet": "Parrot",
+    "ageStage": "Senior",
+    "foodAmount": "Pellets + smaller fruit portions"
+  },
+
+  {
+    "id": 31,
+    "pet": "Lizard",
+    "ageStage": "Juvenile",
+    "foodAmount": "Daily insects"
+  },
+  {
+    "id": 32,
+    "pet": "Lizard",
+    "ageStage": "Adult",
+    "foodAmount": "Insects every 2–3 days"
+  },
+  {
+    "id": 33,
+    "pet": "Lizard",
+    "ageStage": "Senior",
+    "foodAmount": "Reduced insects weekly"
+  },
+
+  {
+    "id": 34,
+    "pet": "Hedgehog",
+    "ageStage": "Young",
+    "foodAmount": "Insects + kibble daily"
+  },
+  {
+    "id": 35,
+    "pet": "Hedgehog",
+    "ageStage": "Adult",
+    "foodAmount": "Small meal nightly"
+  },
+  {
+    "id": 36,
+    "pet": "Hedgehog",
+    "ageStage": "Senior",
+    "foodAmount": "Softer meals nightly"
+  },
+
+  {
+    "id": 37,
+    "pet": "Horse",
+    "ageStage": "Foal",
+    "foodAmount": "Milk + hay multiple times/day"
+  },
+  {
+    "id": 38,
+    "pet": "Horse",
+    "ageStage": "Adult",
+    "foodAmount": "Hay + grains twice/day"
+  },
+  {
+    "id": 39,
+    "pet": "Horse",
+    "ageStage": "Senior",
+    "foodAmount": "Soft hay + senior feed"
+  },
+
+  {
+    "id": 40,
+    "pet": "Goat",
+    "ageStage": "Kid",
+    "foodAmount": "Milk + hay multiple times/day"
+  },
+  {
+    "id": 41,
+    "pet": "Goat",
+    "ageStage": "Adult",
+    "foodAmount": "Hay + grains twice/day"
+  },
+  {
+    "id": 42,
+    "pet": "Goat",
+    "ageStage": "Senior",
+    "foodAmount": "Softer hay + reduced grains"
+  },
+
+  {
+    "id": 43,
+    "pet": "Pig",
+    "ageStage": "Piglet",
+    "foodAmount": "Milk replacer + pellets"
+  },
+  {
+    "id": 44,
+    "pet": "Pig",
+    "ageStage": "Adult",
+    "foodAmount": "Balanced diet twice/day"
+  },
+  {
+    "id": 45,
+    "pet": "Pig",
+    "ageStage": "Senior",
+    "foodAmount": "Light meals twice/day"
+  }
+]
