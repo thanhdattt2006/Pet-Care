@@ -33,7 +33,7 @@ Follow these steps to run the project:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/thanhdattt2006/Pet-Care.git](https://github.com/thanhdattt2006/Pet-Care.git)
+    git clone https://github.com/thanhdattt2006/Pet-Care
     cd Pet-Care
     ```
 
@@ -73,7 +73,7 @@ Các bước cài đặt và khởi chạy:
 
 1.  **Tải mã nguồn (Clone)**
     ```bash
-    git clone [https://github.com/thanhdattt2006/Pet-Care.git](https://github.com/thanhdattt2006/Pet-Care.git)
+    git clone https://github.com/thanhdattt2006/Pet-Care
     cd Pet-Care
     ```
 
