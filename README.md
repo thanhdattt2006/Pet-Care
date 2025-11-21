@@ -1,76 +1,126 @@
-<!-- Readme for our project -->
-Anipat Care - Pet Care Portal
-Welcome to FurEver Care, a Single Page Application (SPA) web application built with ReactJS. The project aims to provide a centralized platform for pet owners, veterinarians, and animal shelters to manage pet care and access useful resources.
+# 🐾 Anipat Care - Pet Care Portal
 
-📜 Introduction
-    In modern life, pet care can become complicated. FurEver Care was created to solve this problem by providing a comprehensive solution where users can easily manage their pet's health information, discover recommended products, and connect with the animal-loving community.
+**Anipat Care (FurEver Care)** is a Single Page Application (SPA) built with ReactJS to connect pet owners, veterinarians, and shelters.
 
-✨ Key Features
-    The project is divided into three main user flows, each with distinct functions:
-    🐾 For Pet Owners
-        ● Pet Care: Access static pet profiles, feeding guides, grooming videos, and helpful health tips.
-        ● Product Showcase: Explore a list of pet essentials such as food, toys, and grooming supplies. Data is dynamically loaded from a JSON file.
-        ● Emergency Support: Find emergency contact information for veterinarians.
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-7-purple)
 
-⛑️ For Veterinarians
-    ● Specialist Profile: Display static information about your veterinarian including name, specialty, and contact information.
-    ● Appointment Calendar: View available and booked time slots (display only).
-    ● Case Studies: Check out sample pet medical records.
-🏡 For Animal Shelters
-    ● Adoption Gallery: Displays a list of pets looking for homes with full information such as pictures, names, ages, and short descriptions.
-    ● Smart Filters: Allows filtering of pets by species (dogs, cats, etc.) using client-side JavaScript.
-    ● Success Stories: Read heartwarming stories about successful adoptions.
-    ● Events & Contact: Updates on upcoming events and shelter contact information, Google Map integration.
-General Pages
-    ● About Us: Static information about the development team and project goals.
-    ● Contact Us: Team contact information and directions map.
-    ● Feedback: Form for users to submit feedback (interface only, no submission functionality).
-🛠️ Technologies used
-    The project is built with modern web technologies:
-        ● IDE: Visual Studio Code
-        ● Frontend: ReactJS, HTML5, CSS3, Bootstrap (optional)
-        ● Data repository: Data is managed via static JSON files.
-🚀 Getting Started
+---
 
-To run this project on your local machine, follow these steps:
-  1. Clone a repository
-  git clone [https://your-repository-url.git](https://your-repository-url.git)
-  cd your-project-directory
+## 🇬🇧 English Version
 
-  1. Install dependencies
-  npm install
+### 📜 Introduction
+**FurEver Care** aims to solve the complexity of modern pet care. It provides a centralized platform where users can manage pet health, discover products, and connect with the animal-loving community.
 
-  1. Run the application
-  npm start
+### ✨ Key Features
 
-Open http://localhost:3000 to see the application in your browser.
-📁 Folder Structure
-The project follows the standard folder structure of a React application:
-/
+#### 🐾 For Pet Owners
+- **Pet Care:** Static profiles, feeding guides, grooming videos, and health tips.
+- **Product Showcase:** Explore food, toys, and supplies (loaded from JSON).
+- **Emergency Support:** Quick access to vet emergency contacts.
+
+#### ⛑️ For Veterinarians
+- **Specialist Profile:** Showcase specialty and contact info.
+- **Appointment Calendar:** View booked and available slots.
+- **Case Studies:** Reference sample medical records.
+
+#### 🏡 For Animal Shelters
+- **Adoption Gallery:** List pets for adoption with smart filters (species, age).
+- **Success Stories:** Heartwarming adoption stories.
+- **Events & Contact:** Shelter events and Google Maps integration.
+
+### 🛠️ Technologies Used
+
+- **Core:** React 19, Vite 7
+- **UI & Styling:** PrimeReact, PrimeFlex, PrimeIcons, Lucide React
+- **Carousel:** React Slick, Slick Carousel
+- **Utilities:** SweetAlert2 (Notifications), Quill (Rich Text)
+- **Routing:** React Router DOM
+
+### 🚀 Getting Started
+
+Follow these steps to run the project locally:
+
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/thanhdattt2006/Pet-Care.git](https://github.com/thanhdattt2006/Pet-Care.git)
+    cd Pet-Care
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the application**
+    ```bash
+    npm run dev
+    ```
+
+    Open the link shown in the terminal (usually `http://localhost:5173`) to view the app.
+
+### 📁 Folder Structure
 ├── public/
-│ ├── index.html
-│ ├── data/
-| |  ├── shelter.json // Example data file
-│ │  └──... 
-│ ├── img/
-│ └── ... // Static images
 ├── src/
-│ ├── components/ // Reusable components
-│ ├── pages/ // Components for each page
-│ │ ├── Home.jsx
-│ │ ├── Shelter.jsx
-│ │ ├── Contact.jsx
-│ │ ├── Feedback.jsx
-│ │ ├── About.jsx
-│ │ └── ...
-│ ├── routes/
-│ │ └── Routes.jsx // Route configuration
-│ ├── App.js
-│ └── index.js
-├── package.json
-└── README.md
+│   ├── components/
+│   ├── pages/
+│   ├── routes/
+│   └── App.jsx
+└── package.json
 
-⚠️ Project Limitations
-    ● This is a client-side application.
-    ● The project has no backend and does not store information on the server.
-    ● All data is read from pre-filled .json files in the public/data folder. There is no functionality to write data from the user interface to these files.
+---
+
+## 🇻🇳 Phiên bản Tiếng Việt
+
+### 📜 Giới thiệu
+**FurEver Care** là giải pháp toàn diện cho việc chăm sóc thú cưng trong thời đại mới. Dự án giúp người dùng quản lý sức khỏe thú cưng, tìm kiếm sản phẩm và kết nối cộng đồng yêu động vật.
+
+### ✨ Tính năng Chính
+
+#### 🐾 Cho Chủ nuôi (Pet Owners)
+- **Chăm sóc:** Xem hướng dẫn nuôi dạy, video grooming và mẹo sức khỏe.
+- **Cửa hàng:** Danh sách sản phẩm (thức ăn, đồ chơi) tải từ dữ liệu JSON.
+- **Khẩn cấp:** Danh bạ bác sĩ thú y hỗ trợ khẩn cấp.
+
+#### ⛑️ Cho Bác sĩ Thú y (Veterinarians)
+- **Hồ sơ:** Hiển thị thông tin chuyên môn và liên hệ.
+- **Lịch hẹn:** Xem các khung giờ khám bệnh (chế độ xem).
+- **Bệnh án:** Tham khảo các ca bệnh mẫu.
+
+#### 🏡 Cho Trại cứu hộ (Shelters)
+- **Nhận nuôi:** Danh sách thú cưng tìm chủ với bộ lọc thông minh.
+- **Câu chuyện:** Các bài viết về ca nhận nuôi thành công.
+- **Sự kiện:** Thông tin sự kiện và bản đồ đường đi tới trại.
+
+### 🛠️ Công nghệ Sử dụng
+
+- **Nền tảng:** React 19, Vite 7
+- **Giao diện:** PrimeReact, PrimeFlex, PrimeIcons, Lucide React
+- **Hiệu ứng:** React Slick (Carousel), SweetAlert2 (Thông báo)
+- **Định tuyến:** React Router DOM
+
+### 🚀 Cài đặt và Chạy dự án
+
+Làm theo các bước sau để chạy web trên máy của bạn:
+
+1.  **Tải mã nguồn (Clone)**
+    ```bash
+    git clone [https://github.com/thanhdattt2006/Pet-Care.git](https://github.com/thanhdattt2006/Pet-Care.git)
+    cd Pet-Care
+    ```
+
+2.  **Cài đặt thư viện**
+    ```bash
+    npm install
+    ```
+
+3.  **Chạy dự án**
+    ```bash
+    npm run dev
+    ```
+
+    Mở đường dẫn hiển thị trong terminal (thường là `http://localhost:5173`) để xem kết quả.
+
+### ⚠️ Lưu ý
+- Dự án là **Client-side (Frontend)** hoàn toàn.
+- Dữ liệu được đọc từ các file `.json` tĩnh trong thư mục `public/data`.
+- Không có Backend lưu trữ dữ liệu người dùng.
